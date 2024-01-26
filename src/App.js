@@ -29,7 +29,7 @@ function App() {
       <main> 
       <Routes>
         <Route path="jim294.github.io/portfolio/" element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Home />} />
         <Route path="/cv" element={<Cv />} />
         <Route path="/presentation" element={<Presentation />} />
         <Route path="/realisations" element={<Realisations />} />
