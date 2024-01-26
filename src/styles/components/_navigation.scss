@@ -1,0 +1,14 @@
+.navigation {
+  ul {
+    display: flex;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+    gap: 30px;
+    list-style-type: none;
+    li  {
+      color: #323232;
+
+    }
+  }
+}

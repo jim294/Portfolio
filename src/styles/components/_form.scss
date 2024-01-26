@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    .case{
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 200px;
+            height: 30px;
+        }
+    }
+    .submit{
+        height: 60px;
+        width: 150px;
+        background-color: $color-1;
+        color: $color-2;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}

@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 450px;
+  align-items: center;
+  border-radius: 50px;
+  gap: 50px;
+  img {
+   
+    width: 10%;
+    height: 300px;
+    width: auto;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 50px;
+    z-index: 1;
+  }
+
+  p {
+    font-size: 50px;
+    font-weight: 500;
+    color: $color-1;
+  }
+}
