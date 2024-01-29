@@ -4,6 +4,7 @@ import Stars from "../components/Stars";
 import Collapse from "../components/Collapse";
 import Carousel from "../components/Carousel";
 import Projects from "../projects.json";
+import Preloader from "../components/Preloader.jsx";
 
 const Project = () => {
   const [work, setWork] = useState(null);
@@ -19,16 +20,20 @@ const Project = () => {
     }
   }, [project, navigate]);
 
-return work == null  ? (<div>loader...En attente de données chargées</div>) : 
-  (
+  return work == null ? (
+    <Preloader />
+  ) : (
     <>
       <main>
-        <Carousel images={project.pictures} pagination={project.pictures.length} />
+        <Carousel
+          images={project.pictures}
+          pagination={project.pictures.length}
+        />
 
         <section className="house">
           <section className="house__left">
             <h1 className="house__title">{project.title}</h1>
-            <p className="house__location">{project.location}</p>
+            <p className="house__location">{project.site}</p>
             <ul>
               {project.tags.map((tag) => (
                 <li className="house__tags" key={tag}>
@@ -41,17 +46,12 @@ return work == null  ? (<div>loader...En attente de données chargées</div>) :
           <section className="house__right">
             <figure>
               <figcaption className="house__photo-nom">
-                {project.host.name}
+                Difficulté du projet
               </figcaption>
-              <img
-                className="house__photo-profil"
-                src={project.host.picture}
-                alt="profil"
-              />
             </figure>
             <Stars
               numberActiveStars={project.rating}
-              numberInactiveStars={5-project.rating}
+              numberInactiveStars={5 - project.rating}
             />
           </section>
         </section>
@@ -64,12 +64,29 @@ return work == null  ? (<div>loader...En attente de données chargées</div>) :
           />
           <Collapse
             key={Math.random()}
-            title="Équipements"
+            title="Liens"
             description={
               <ul>
-                {project.equipments.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
+                <li>
+                  <h1> lien vers projet GitHub:</h1>
+                  <a
+                    href={project.lien1}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.lien1}
+                  </a>
+                </li>
+                <li>
+                  <h1> lien vers page page web:</h1>
+                  <a
+                    href={project.lien2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.lien2}
+                  </a>
+                </li>
               </ul>
             }
           />

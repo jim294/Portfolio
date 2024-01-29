@@ -23,9 +23,9 @@ const Realisations = () => {
         <section className="cardsBackground">
           {Projects.map((project, index) => (
             <Cards
-              className="card"
               key={index}
               title={project.title}
+              subtitle={project.subtitle}
               imageUrl={project.cover}
               link={`/project/${project.id}`}
             />

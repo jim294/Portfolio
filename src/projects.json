@@ -1,7 +1,8 @@
 [
 	{
 		"id": "b9123946",
-		"title": "",
+		"title": "Booki",
+		"subtitle":"Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "https://i.postimg.cc/fbgwHyb8/Booki.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
@@ -11,30 +12,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
 		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-		},
-		"rating": "4",
-		"location": "Ile de France - Paris 10e",
-		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
+		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, je travaille en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. ",
+		"rating": "2",
+		"site": "Agence d'hébergements en ligne",
+		"lien1": [
+			"https://github.com/jim294/Booki.io"
+		],
+		"lien2": [
+			"https://jim294.github.io/Booki.io/"
 		],
 		"tags": [
-			"Canal Saint Martin",
-			"République",
-			"Appartement"
+			"HTML",
+			"Css"
 		]
 	},
 	{
 		"id": "46d188c5",
-		"title": "Studio de charme - Buttes Chaumont",
+		"title": "OhMyFood",
+		"subtitle":"Améliorez l'interface d'un site mobile avec des animations CSS",
 		"cover": "https://i.postimg.cc/G2zTcGbd/ohmyfood.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
@@ -42,28 +37,25 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
 		],
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
-		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
-		},
+		"description": "Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contiendra 4 menus dans un premier temps. ",
 		"rating": "3",
-		"location": "Ile de France - Paris 20e",
-		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
+		"site": "Un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
+		"lien1": [
+			"https://github.com/jim294/OhMyFood.io"
+		],
+		"lien2": [
+			"https://jim294.github.io/OhMyFood.io/"
 		],
 		"tags": [
-			"Buttes Chaumont",
-			"Laumière",
-			"Studio"
+			"HTML",
+			"CSS",
+			"SASS"
 		]
 	},
 	{
 		"id": "7af00cd6",
-		"title": "Nid douillet au coeur du 11ème",
+		"title": "Print It !",
+		"subtitle": "Premiers pas sur le langage JavaScript",
 		"cover": "https://i.postimg.cc/j2FWfTW1/Print-it.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
@@ -71,30 +63,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
 		],
-		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
-		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
-		},
-		"rating": "3",
-		"location": "Ile de France - Paris 11e",
-		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
-			"Télévision"
+		"description": "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it grâce à javaScript",
+		"rating": "2",
+		"site": "",
+		"lien1": [
+			"https://github.com/jim294/Print-it-JS.io"
+		],
+		"lien2": [
+			"https://jim294.github.io/Print-it-JS.io/"
 		],
 		"tags": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Night Life"
+			"HTML",
+			"Css",
+			"javaScript"
 		]
 	},
 	{
 		"id": "0979876d",
-		"title": "Appartement de Standing - 10e",
+		"title": "Créez une page web dynamique avec JavaScript",
 		"cover": "https://i.postimg.cc/158VQ821/sophie-bluel.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
@@ -105,22 +91,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
 		],
 		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
-		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
-		},
 		"rating": "5",
-		"location": "Ile de France - Paris 10e",
-		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
+		"site": "",
+		"lien1": [
+			""
+		],
+		"lien2": [
+			""
 		],
 		"tags": [
-			"Goncourt",
-			"Proche commerces"
+			"",
+			"",
+			""
 		]
 	},
 	{
@@ -135,22 +117,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"host": {
-			"name": "Nathalie Jean",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
-		},
 		"rating": "5",
-		"location": "Ile de France - Paris 17e",
-		"equipments": [
-			"Équipements de base",
-			"Micro-Ondes",
-			"Douche italienne",
-			"Frigo",
-			"WIFI"
+		"site": "",
+		"lien1": [
+			""
+		],
+		"lien2": [
+			""
 		],
 		"tags": [
-			"Batignolle",
-			"Montmartre"
+			"",
+			"",
+			""
 		]
 	},
 	{
@@ -165,20 +143,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
 		],
 		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
-		"host": {
-			"name": "Line Rolland",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
-		},
 		"rating": "5",
-		"location": "Ile de France - Paris 18e",
-		"equipments": [
-			"Chambre Séparée",
-			"Parking"
+		"site": "",
+		"lien1": [
+			""
+		],
+		"lien2": [
+			""
 		],
 		"tags": [
-			"Montmartre",
-			"Culture",
-			"Charme"
+			"",
+			"",
+			""
 		]
 	},
 	{
@@ -192,24 +168,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
 		],
 		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
-		"host": {
-			"name": "Hugo Perrier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
-		},
 		"rating": "3",
-		"location": "Ile de France - Paris 18e",
-		"equipments": [
-			"Salle de bains",
-			"Frigo",
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Bureau",
-			"Parking"
+		"site": "",
+		"lien1": [
+			""
+		],
+		"lien2": [
+			""
 		],
 		"tags": [
-			"Transports",
-			"Cheap",
-			"18ème"
+			"",
+			"",
+			""
 		]
 	},
 	{
@@ -225,25 +195,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg"
 		],
 		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
-		"host": {
-			"name": "Sébastien Fournier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
-		},
 		"rating": "5",
-		"location": "Ile de France - Paris 6e",
-		"equipments": [
-			"Wi-fi",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Parking",
-			"Lit King Size",
-			"Ascenseur"
+		"site": "",
+		"lien1": [
+			""
+		],
+		"lien2": [
+			""
 		],
 		"tags": [
-			"Luxe",
-			"Tour Eiffel",
-			"T3",
-			"6ème"
+			"",
+			"",
+			""
 		]
 	}
 ]
