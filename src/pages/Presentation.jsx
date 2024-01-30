@@ -1,6 +1,5 @@
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
-import imgMontagne from "../assets/images/Sation.webp";
 
 const collapses = [
   {
@@ -29,7 +28,7 @@ const Presentation = () => {
   return (
     <>
       <main>
-        <Banner imageUrl={imgMontagne} alt="image de montagne" />
+        <Banner imageUrl="https://i.postimg.cc/508jhqnr/Sation.webp" alt="image de montagne" />
         <section className="cv_text">
           <p>
           Bonjour,

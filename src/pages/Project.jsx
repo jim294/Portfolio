@@ -24,11 +24,10 @@ const Project = () => {
     <Preloader />
   ) : (
     <>
-      <main>
         <Carousel
           images={project.pictures}
           pagination={project.pictures.length}
-        />
+          />
 
         <section className="project">
           <section className="project__left">
@@ -95,7 +94,6 @@ const Project = () => {
             }
           />
         </section>
-      </main>
     </>
   );
 };

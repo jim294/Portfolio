@@ -17,14 +17,11 @@
 
   &__right {
     display: flex;
+    gap: 10px;
     flex-direction: column;
     align-items: flex-end;
-
     figure {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 35px;
     }
   }
 
@@ -52,6 +49,5 @@
   &__photo-nom {
     font-size: 18px;
     text-align: right;
-    padding: 10%;
   }
 }

@@ -1,6 +1,4 @@
 import { useState } from "react";
-import imgVectorLeft from "../assets/images/Vector-left.png";
-import imgVectorRight from "../assets/images/Vector-right.png";
 
 export default function Carousel(props) {
   const { images, pagination } = props;
@@ -23,28 +21,41 @@ export default function Carousel(props) {
   };
 
   return (
-    <figure className="carousel">
-      <img className="carousel__image" src={images[image]} alt="carousel" />
-      <img
-        className="carousel__arrow carousel__arrow__left"
-        onClick={handlePreviousDisplay}
-        src={imgVectorLeft}
-        alt="fleche gauche"
-        style={pagination === 1 ? { display: "none" } : null}
-      />
-      <img
-        className="carousel__arrow carousel__arrow__right"
-        onClick={handleNextDisplay}
-        src={imgVectorRight}
-        alt="fleche droite"
-        style={pagination === 1 ? { display: "none" } : null}
-      />
+    <div className="carousel-container">
+      <div className="carousel">
+        <div
+          className="carousel__arrow"
+          onClick={handlePreviousDisplay}
+        >
+          <img
+            src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+            alt="fleche gauche"
+            style={pagination === 1 ? { display: "none" } : null}
+          />
+        </div>
+
+        <div className="carousel__image-container">
+          <img className="carousel__image" src={images[image]} alt="carousel" />
+        </div>
+
+        <div
+          className="carousel__arrow"
+          onClick={handleNextDisplay}
+        >
+          <img
+            src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+            alt="fleche droite"
+            style={pagination === 1 ? { display: "none" } : null}
+          />
+        </div>
+      </div>
       <figcaption
         className="carousel__pagination"
         style={pagination === 1 ? { display: "none" } : null}
       >
         {image + 1}/{pagination}
       </figcaption>
-    </figure>
+
+    </div>
   );
 }

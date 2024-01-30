@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 
 const Home = () => {
-  const firstName = "Bienvenue";
+  const firstName = "Bienvenue sur ma page";
   const [animationTriggered, setAnimationTriggered] = useState(false);
 
   useEffect(() => {
@@ -21,7 +21,6 @@ const Home = () => {
         </section>
         <section>
         <Banner className="maPhoto" imageUrl={maPhoto} alt="image de montagne" captionText="Jean-Marie DESCHAMPS" />
-          <h1>Laissez moi vous parler de moi </h1>
           <p>
             Je suis actuellement en cours de formation en tant qu'intégrateur
             web chez OpenClassroom, et je suis sur le point de terminer mon
