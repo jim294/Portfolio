@@ -6,6 +6,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+  }
+  .navigation {
+    ul {
+      flex-direction: column;
+  }
+}
+  .banner {
+    height: auto;
+  }
+  .cv_text {
+    padding: 0;
   }
 }
 

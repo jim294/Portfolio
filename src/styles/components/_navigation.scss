@@ -4,10 +4,14 @@
     margin: 30px;
     color: white;
     cursor: pointer;
-    gap: 80px;
+    gap: 60px;
     list-style-type: none;
     li  {
       color: #323232;
+    }
+    div {
+      display: flex;
+      gap: 60px;
     }
   }
 
