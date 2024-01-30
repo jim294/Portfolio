@@ -30,22 +30,22 @@ const Project = () => {
           pagination={project.pictures.length}
         />
 
-        <section className="house">
-          <section className="house__left">
-            <h1 className="house__title">{project.title}</h1>
-            <p className="house__location">{project.site}</p>
+        <section className="project">
+          <section className="project__left">
+            <h1 className="project__title">{project.title}</h1>
+            <p className="project__location">{project.site}</p>
             <ul>
               {project.tags.map((tag) => (
-                <li className="house__tags" key={tag}>
+                <li className="project__tags" key={tag}>
                   {tag}
                 </li>
               ))}
             </ul>
           </section>
 
-          <section className="house__right">
+          <section className="project__right">
             <figure>
-              <figcaption className="house__photo-nom">
+              <figcaption className="project__photo-nom">
                 Difficulté du projet
               </figcaption>
             </figure>
@@ -56,7 +56,7 @@ const Project = () => {
           </section>
         </section>
 
-        <section className="collapse__house">
+        <section className="collapse__project">
           <Collapse
             key={Math.random()}
             title="Description"
@@ -78,14 +78,18 @@ const Project = () => {
                   </a>
                 </li>
                 <li>
-                  <h1> lien vers page page web:</h1>
-                  <a
-                    href={project.lien2}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {project.lien2}
-                  </a>
+                  {project.lien2 && (
+                    <>
+                      <h1> lien vers page web:</h1>
+                      <a
+                        href={project.lien2[0]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {project.lien2[0]}
+                      </a>
+                    </>
+                  )}
                 </li>
               </ul>
             }

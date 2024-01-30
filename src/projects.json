@@ -12,7 +12,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
 		],
-		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Je suis chargé d'intégrer l'interface du site avec du code HTML et CSS. Pour cela, je travaille en étroite collaboration avec Sarah, la CTO, et Loïc, l’UI designer. ",
+		"description": "J'ai débuté en tant que développeur web chez Booki, une start-up souhaitant créer un site permettant aux utilisateurs de trouver des hébergements et des activités dans leur ville. En collaboration avec Sarah, la CTO, et Loïc, l’UI designer, j'avais pour mission d'intégrer l'interface du site avec HTML et CSS. Je devais compléter le fichier index.html et le dossier CSS en m'inspirant de la base de code fournie. Le plus gros du travail etait la validité du code, le web sémantique, l'importance des validateurs, l'utilisation d'un IDE, les spécificités CSS, l'étude de la maquette, et la séparation du HTML et du CSS. J'ai pris soin de l'implémentation d'une interface responsive avec HTML et CSS, l'installation d'un environnement de développement front-end, et l'intégration de contenu conformément à une maquette.",
 		"rating": "2",
 		"site": "Agence d'hébergements en ligne",
 		"lien1": [
@@ -37,7 +37,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
 		],
-		"description": "Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contiendra 4 menus dans un premier temps. ",
+		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contiend 4 menus dans un premier temps. ",
 		"rating": "3",
 		"site": "Un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
 		"lien1": [
@@ -49,7 +49,8 @@
 		"tags": [
 			"HTML",
 			"CSS",
-			"SASS"
+			"SASS",
+			"GitHub"
 		]
 	},
 	{
@@ -63,9 +64,9 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
 		],
-		"description": "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it grâce à javaScript",
+		"description": "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it grâce à javaScript.",
 		"rating": "2",
-		"site": "",
+		"site": "Agence d'imprimerie en ligne",
 		"lien1": [
 			"https://github.com/jim294/Print-it-JS.io"
 		],
@@ -80,7 +81,8 @@
 	},
 	{
 		"id": "0979876d",
-		"title": "Créez une page web dynamique avec JavaScript",
+		"title": "Sophie Bluel",
+		"subtitle": "Créez une page web dynamique avec JavaScript",
 		"cover": "https://i.postimg.cc/158VQ821/sophie-bluel.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
@@ -90,24 +92,25 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
 		],
-		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
+		"description": " Développement front-end avec travaille sur la conception du site portfolio d’une architecte d’intérieur avec 3 missions principales: Développement de la page de présentation des travaux de l'architecte, puis de la page de connexion de l'administrateur du site (le client) (code à créer de zéro) et enfin, développement de la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
 		"rating": "5",
-		"site": "",
+		"site": "Site web dynamique d'une photographe",
 		"lien1": [
-			""
+			"https://github.com/jim294/sophie-bluel.io"
 		],
 		"lien2": [
-			""
+			"https://jim294.github.io/sophie-bluel.io/"
 		],
 		"tags": [
-			"",
-			"",
-			""
+			"HTML",
+			"CSS",
+			"javaScript"
 		]
 	},
 	{
 		"id": "c67ab8a7",
-		"title": "Kasaa",
+		"title": "Kasa",
+		"subtitle": "Créez une application web de location immobilière avec React",
 		"cover": "https://i.postimg.cc/dQHZp2W9/Kasa.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
@@ -116,24 +119,27 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"rating": "5",
-		"site": "",
+		"description": "Une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Il s'agit ici d'un projet React pour le développement de l’ensemble de l’application. Utilisation du backend / Data ainsi que de Create React App.",
+		"rating": "4",
+		"site": "Agence de location immobilière en ligne",
 		"lien1": [
-			""
+			"https://github.com/jim294/Kasa"
 		],
 		"lien2": [
-			""
+			"https://jim294.github.io/Kasa/"
 		],
 		"tags": [
-			"",
-			"",
-			""
+			"Node.js",
+			"HTML",
+			"CSS",
+			"React",
+			"SASS"
 		]
 	},
 	{
 		"id": "f72a452f",
-		"title": "Studio d'artiste",
+		"title": "Nina Carducci",
+		"subtitle": "Optimisez le référencement d'un site de photographe",
 		"cover": "https://i.postimg.cc/CL9BLFpB/nina-meta.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
@@ -142,24 +148,24 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
 		],
-		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
+		"description": "Proposition de services d’optimisation SEO. Pour ce faire, analyse du site internet afin d'augmenter le trafic grâce au référencement naturel et amelioration de celui-ci afin améliorer ses performances techniques.",
 		"rating": "5",
-		"site": "",
+		"site": "Site d'une photographe",
 		"lien1": [
-			""
+			"https://github.com/jim294/Nina-Carducchi.io"
 		],
 		"lien2": [
-			""
+			"https://jim294.github.io/Nina-Carducchi.io/"
 		],
 		"tags": [
-			"",
-			"",
-			""
+			"HTML",
+			"CSS"
 		]
 	},
 	{
 		"id": "b4c67936",
-		"title": "Cheap - Studio 18ème",
+		"title": "724events",
+		"subtitle": "Débuggez le site d'une agence d'événementiel",
 		"cover": "https://i.postimg.cc/mrYF5Kqc/724events.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-1.jpg",
@@ -167,24 +173,23 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-3.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-6-4.jpg"
 		],
-		"description": "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
+		"description": "Correction de plusieurs bug sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé REact Developper Tools ainsi que Jest. Un cahier de recettes a été produits en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
 		"rating": "3",
-		"site": "",
+		"site": "Site d'une agence évènementielle",
 		"lien1": [
-			""
-		],
-		"lien2": [
-			""
+			"https://github.com/jim294/77events.io"
 		],
 		"tags": [
-			"",
-			"",
-			""
+			"HTML",
+			"Css",
+			"React",
+			"Sass"
 		]
 	},
 	{
 		"id": "bc6f7112",
-		"title": "Superbe appartement proche Tour Eiffel",
+		"title": "ArgentBank",
+		"subtitle": "Implémentez le front-end d'une application bancaire avec React",
 		"cover": "https://i.postimg.cc/RhF6qh0f/argent-Bank-Logo.png",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-1.jpg",
@@ -194,19 +199,18 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg"
 		],
-		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. À vous de venir découvrir Paris !",
+		"description": "Argent Bank est une nouvelle banque en ligne, et en tant que développeur front-end, ma mission consistait à mettre en place le tableau de bord utilisateur en deux phases. La première phase concernait l'authentification des utilisateurs avec l'utilisation de React et Redux, en mettant l'accent sur les bonnes pratiques de Green Code. La deuxième phase se concentrait sur les transactions, où je devais proposer les routes API conformes à Swagger pour permettre aux utilisateurs de gérer leurs transactions. La présentation finale devant l'évaluateur impliquait la démonstration du code et des choix effectués, tout en répondant à des questions sur l'intégration, l'utilisation de Redux et la conception des routes API.",
 		"rating": "5",
-		"site": "",
+		"site": "Site d'une banque en ligne ",
 		"lien1": [
-			""
-		],
-		"lien2": [
-			""
+			"https://github.com/jim294/ArgentBank-website"
 		],
 		"tags": [
-			"",
-			"",
-			""
+			"HTML",
+			"CSS",
+			"javaScript",
+			"React",
+			"Sass"
 		]
 	}
 ]

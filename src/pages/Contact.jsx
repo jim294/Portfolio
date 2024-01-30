@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="contact">
             <h2>Une question ?</h2>
             <p>
-              N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24
+              N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24
               heures
             </p>
             <Form />
