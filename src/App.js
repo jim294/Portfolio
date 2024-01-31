@@ -2,7 +2,6 @@ import {useState, useEffect} from "react";
 import Preloader from "./components/Preloader.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Cv from "./pages/Cv";
 import Presentation from "./pages/Presentation";
 import Realisations from "./pages/Realisations";
 import Contact from "./pages/Contact";
@@ -10,6 +9,7 @@ import Error from "./pages/Error";
 import Project from "./pages/Project";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import BackgroundAnimation from "./components/BackgroundAnimation";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -25,12 +25,12 @@ function App() {
   return (
     <BrowserRouter>
       <Preloader load={load} />
+      <BackgroundAnimation />
       <Header />
-      <main> 
+      <main>
       <Routes>
         <Route path="jim294.github.io/portfolio/" element={<Home />} />
         <Route path="/portfolio" element={<Home />} />
-        <Route path="/cv" element={<Cv />} />
         <Route path="/presentation" element={<Presentation />} />
         <Route path="/realisations" element={<Realisations />} />
         <Route path="/contact" element={<Contact />} />

@@ -1,54 +1,78 @@
 import Banner from "../components/Banner";
-import Collapse from "../components/Collapse";
-
-const collapses = [
-  {
-    title: "Soft skills",
-    description:
-      "Les annonces postées sur Kasa garantissent une fiabilité totale.Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.",
-  },
-  {
-    title: "Respect",
-    description:
-      "La bienveillance fait partie des valeurs fondatrices de Kasa.Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
-  },
-  {
-    title: "Service",
-    description:
-      "La bienveillance fait partie des valeurs fondatrices de Kasa.Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
-  },
-  {
-    title: "Sécurité",
-    description:
-      "La sécurité est la priorité de Kasa.Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services.En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés.Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.",
-  },
-];
+import Icones from "../assets/Json/icones.json";
 
 const Presentation = () => {
   return (
     <>
       <main>
-        <Banner imageUrl="https://i.postimg.cc/508jhqnr/Sation.webp" alt="image de montagne" />
+        <Banner
+          imageUrl="https://i.postimg.cc/508jhqnr/Sation.webp"
+          alt="image de montagne"
+        />
         <section className="cv_text">
-          <p>
-          Bonjour,
-
-Je m'appelle Jean-Marie DESCHAMPS et je suis originaire de Besançon. Fort d'une licence en commerce obtenue avec succès (Bac+3), j'ai consacré plusieurs années de ma vie professionnelle à des responsabilités dans le secteur de la grande distribution.
-
-Cependant, l'année dernière, après avoir pris le temps de faire un bilan de compétences, j'ai réalisé à quel point le monde du développement informatique représente une véritable source d'épanouissement pour moi. Animé par le désir de changement et la volonté de donner un nouvel élan à ma carrière, j'ai entrepris une reconversion professionnelle.
-
-Cette transition m'a permis de mettre en lumière ma passion de longue date pour l'informatique, présente depuis mon plus jeune âge. Au cours de cette année de reconversion, j'ai concentré mes efforts sur l'apprentissage des langages informatiques de base, développant ainsi les compétences nécessaires pour évoluer dans le domaine du développement informatique.
-
-Mon parcours professionnel antérieur m'a doté de compétences en gestion et en leadership, que je compte mettre à profit dans le domaine informatique. Je suis déterminé à continuer d'apprendre, à me perfectionner et à exercer un métier qui correspond à ma véritable passion.
-          </p>
-          {collapses.map((collapse, index) => (
-            <Collapse
-              key={index}
-              title={collapse.title}
-              description={collapse.description}
-            />
-          ))}
-        </section>
+          <h2>Présentation</h2>
+          <div>
+            <p>
+              Je m'appelle Jean-Marie DESCHAMPS, originaire de Besançon. Après
+              avoir obtenu avec succès une licence en commerce (Bac+3), j'ai
+              consacré plusieurs années à des responsabilités dans le secteur de
+              la grande distribution. Cependant, après avoir effectué un bilan
+              de compétences il y a quelques années, j'ai réalisé que le monde du
+              développement informatique représentait une véritable source
+              d'épanouissement pour moi.
+            </p>
+            <p>
+              Fort de cette prise de conscience, j'ai entrepris une reconversion
+              professionnelle, mettant en lumière ma passion de longue date pour
+              l'informatique, présente depuis mon plus jeune âge. Au cours de
+              cette année de reconversion, j'ai concentré mes efforts sur
+              l'apprentissage des langages informatiques de base, développant
+              ainsi les compétences nécessaires pour évoluer dans le domaine du
+              développement informatique.
+            </p>
+            <p>
+              Parallèlement, je suis actuellement en cours de formation en tant
+              qu'intégrateur web chez OpenClassroom, et je suis sur le point de
+              terminer mon parcours pour obtenir mon diplôme le 15 février
+              prochain. Passionné par le monde du développement web, je
+              m'efforce constamment de me perfectionner, avec un intérêt
+              particulier pour React, une bibliothèque JavaScript que je trouve
+              particulièrement puissante et captivante.
+            </p>
+            <p>
+              Mon parcours professionnel antérieur m'a doté de compétences en
+              gestion et en leadership, que je compte mettre à profit dans le
+              domaine informatique. Au-delà de l'apprentissage des technologies,
+              j'accorde une grande importance à la qualité de mon code. Je
+              considère que la clarté et la lisibilité du code sont
+              essentielles, et je m'efforce toujours de produire un travail
+              soigné et bien structuré.
+            </p>
+            <p>
+              Après l'obtention de mon diplôme, mon objectif principal est de
+              continuer à me perfectionner, explorer de nouvelles technologies
+              et rester à la pointe des dernières tendances du développement
+              web. Je suis convaincu que l'apprentissage continu est la clé pour
+              exceller dans ce domaine en constante évolution.
+            </p>
+            <p>
+              Je suis ouvert aux opportunités de collaboration et de partage de
+              connaissances, et je suis impatient de contribuer activement au
+              monde passionnant du développement web. Mon parcours diversifié,
+              alliant expérience en commerce et formation en développement web,
+              me permet d'apporter une perspective unique et des compétences
+              complémentaires à tout projet.
+            </p>
+          </div>
+            </section>
+          <div className="listIcones">
+            {Icones.map((item, index) => (
+              <div key={index}>
+                <img src={item.title} alt="icone logo" className="icone" />
+                <p>{item.description}</p>
+              </div>
+            ))}
+          </div>
       </main>
     </>
   );

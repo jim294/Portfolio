@@ -1,0 +1,28 @@
+.cv_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 86px;
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+
+.icone {
+    height: 90px;
+}
+
+.listIcones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* ou justify-content: space-around; */
+    align-items: center; /* ou align-items: flex-start; selon vos besoins */
+    gap: 100px;
+    margin: 43px auto 50px;
+}
+
+.icone {
+    margin-bottom: 20px; /* Ajustez la marge selon vos besoins */
+}

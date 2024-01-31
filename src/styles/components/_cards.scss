@@ -1,12 +1,11 @@
 .cardsBackground {
   width: auto;
-  background-color: $color-3;
   padding: 56px 50px 43px;
   border-radius: 25px;
   margin: 43px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 40px;
+  grid-gap: 80px;
 }
 
 .cards {
@@ -33,7 +32,6 @@
   
     &__card {
       display: block;
-      background-color: $color-3;
       width: 100%;
       height: 339px;
       border: 2px solid black;
@@ -47,7 +45,7 @@
     &:hover {
       .cards__card {
         transform: rotate(5deg) scale(0.95);
-        background-color: #c4a897;
+        background-color: rgba(0, 0, 0, 0.284);
       }
     }
   }

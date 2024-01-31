@@ -51,3 +51,17 @@
     text-align: right;
   }
 }
+
+h2 {
+
+  a {
+    text-decoration: none;
+    font-size: 30px;
+  }
+}
+
+.collapseLiens {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

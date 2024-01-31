@@ -1,11 +1,11 @@
 import Cards from "../components/Cards";
-import Projects from "../projects.json";
+import Projects from "../assets/Json/projects.json";
 import { useEffect, useState } from "react";
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 
 const Realisations = () => {
 
-  const firstName = "Mes  projects ";
+  const firstName = "Mes  projets ";
   const [animationTriggered, setAnimationTriggered] = useState(false);
 
   useEffect(() => {
