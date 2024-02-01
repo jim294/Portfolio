@@ -15,7 +15,7 @@ const animateBackground = keyframes`
 `;
 
 const Background = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -24,6 +24,12 @@ const Background = styled.div`
   background: linear-gradient(-45deg, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   animation: ${animateBackground} 15s ease infinite;
+
+  @media (max-width: 768px) {
+    background-size: 800% 100%;
+  }
+
+
 `;
 
 const BackgroundAnimation = () => {

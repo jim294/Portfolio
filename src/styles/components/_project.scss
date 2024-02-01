@@ -55,7 +55,6 @@
 h2 {
 
   a {
-    text-decoration: none;
     font-size: 30px;
   }
 }
@@ -63,5 +62,7 @@ h2 {
 .collapseLiens {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
 }
