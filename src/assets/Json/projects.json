@@ -37,7 +37,7 @@
 			"https://i.postimg.cc/RVdJCd45/Snag-1459cc40.webp",
 			"https://i.postimg.cc/qqXh3XKK/Snag-1459a55f.webp"
 		],
-		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contiend 4 menus dans un premier temps. ",
+		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contient 4 menus dans un premier temps. ",
 		"rating": "3",
 		"site": "Un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
 		"lien1": [
@@ -168,7 +168,7 @@
 			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
 			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
 		],
-		"description": "Correction de plusieurs bug sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé REact Developper Tools ainsi que Jest. Un cahier de recettes a été produits en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"description": "Correction de plusieurs bug sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé REact Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
 		"rating": "3",
 		"site": "Site d'une agence évènementielle",
 		"lien1": [
