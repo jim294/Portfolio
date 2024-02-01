@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useMediaQuery } from 'react-responsive';
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 import Typewriter from "typewriter-effect";
 
@@ -8,12 +9,17 @@ const Home = () => {
   const firstName = "Jean-Marie";
   const name = "DESCHAMPS";
   const [animationTriggered, setAnimationTriggered] = useState(false);
+  const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   useEffect(() => {
     if (!animationTriggered) {
       setAnimationTriggered(true);
     }
   }, [animationTriggered]);
+
+  const getFontSize = () => {
+    return isSmallScreen ? "40px" : "80px";
+  };
 
   return (
     <>
@@ -25,7 +31,7 @@ const Home = () => {
                 👋
               </div>
               <NomPrenomAnimation
-                style={{ color: "#FF0000", fontSize: "80px" }}
+                style={{ color: "#FF0000", fontSize: getFontSize() }}
                 firstName={welcom}
                 speed={50}
                 delay={1200}

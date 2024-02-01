@@ -19,8 +19,12 @@
   .cv_text {
     padding: 0;
   }
-}
-
-@media (max-width: 375px) {
-
+  .smiley-hand {
+    font-size: 2em;
+  }
+  .home__structure__components{
+    img {
+      height: 200px;
+    }
+  }
 }
