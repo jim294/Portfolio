@@ -12,15 +12,23 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  img{
+  img {
     width: 200px;
   }
+}
+
+.mediaQueriesLeft {
+  display: none;
 }
 
 .carousel__image-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.carousel__arrow__mediaQueries {
+  display: none;
 }
 
 .carousel__image {
@@ -32,7 +40,7 @@
 .carousel__pagination {
   grid-column: 1 / span 3;
   justify-self: center;
-  color: #FF8D94;
+  color: #ff8d94;
   font-size: 40px;
   padding-top: 20px;
 }

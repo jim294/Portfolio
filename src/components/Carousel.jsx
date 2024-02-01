@@ -24,7 +24,7 @@ export default function Carousel(props) {
     <div className="carousel-container">
       <div className="carousel">
         <div
-          className="carousel__arrow"
+          className="carousel__arrow mediaQueriesRigth"
           onClick={handlePreviousDisplay}
         >
           <img
@@ -33,20 +33,27 @@ export default function Carousel(props) {
             style={pagination === 1 ? { display: "none" } : null}
           />
         </div>
-
         <div className="carousel__image-container">
           <img className="carousel__image" src={images[image]} alt="carousel" />
         </div>
-
-        <div
-          className="carousel__arrow"
-          onClick={handleNextDisplay}
-        >
-          <img
-            src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
-            alt="fleche droite"
-            style={pagination === 1 ? { display: "none" } : null}
-          />
+        <div className="arrowMediaQueries">
+          <div
+            className="carousel__arrow mediaQueriesLeft"
+            onClick={handlePreviousDisplay}
+          >
+            <img
+              src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+              alt="fleche gauche"
+              style={pagination === 1 ? { display: "none" } : null}
+            />
+          </div>
+          <div className="carousel__arrow" onClick={handleNextDisplay}>
+            <img
+              src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+              alt="fleche droite"
+              style={pagination === 1 ? { display: "none" } : null}
+            />
+          </div>
         </div>
       </div>
       <figcaption
@@ -55,7 +62,6 @@ export default function Carousel(props) {
       >
         {image + 1}/{pagination}
       </figcaption>
-
     </div>
   );
 }

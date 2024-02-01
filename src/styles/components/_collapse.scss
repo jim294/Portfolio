@@ -38,7 +38,7 @@
       color: black;
     }
 
-    p {
+    div {
       font-size: 18px;
       padding: 15px;
       line-height: 25px;
@@ -46,7 +46,7 @@
   }
 
   &--active &__content {
-    max-height: 375px;
+    max-height: 10000px;
   }
 
   &__icon {

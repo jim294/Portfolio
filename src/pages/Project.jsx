@@ -73,7 +73,7 @@ const Project = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Projet GitHub
+                    Lien vers projet GitHub
                   </a>
                 </h2>
               </li>
@@ -86,7 +86,7 @@ const Project = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Page web
+                        Lien vers page web
                       </a>
                     </h2>
                   </>

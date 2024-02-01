@@ -11,7 +11,7 @@ const Collapse = ({ title, description }) => {
     <>
       <div className={`collapse ${isCollapsed ? "" : "collapse--active"}`}>
         <div className="collapse__header" onClick={toggleCollapse}>
-          <p className="collapse__title">{title}</p>
+          <h2 className="collapse__title">{title}</h2>
           <img
             className="collapse__icon"
             src="https://i.postimg.cc/X7dxsTfK/Vector-down.webp"
@@ -19,7 +19,7 @@ const Collapse = ({ title, description }) => {
           />
         </div>
         <div className="collapse__content">
-          <p>{description}</p>
+          <div>{description}</div>
         </div>
       </div>
     </>
