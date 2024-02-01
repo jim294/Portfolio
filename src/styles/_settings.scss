@@ -72,10 +72,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 100px;
-  position: sticky;
-  top: 10;
-  z-index: 1000;
+  margin: 20px 100px;
 }
 
 main {
@@ -91,9 +88,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 100px;
   gap: 29px;
-  padding-top: 20px;
+  padding: 30px;
   color: #ffff;
+  border-top: 2px solid #323232;
 }
 

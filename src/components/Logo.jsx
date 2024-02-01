@@ -4,7 +4,7 @@ import imgLogo from "../assets/images/Logo2.png";
 const Logo = () => {
   return (
     <div>
-      <img src={imgLogo} alt="logo Jm" />
+      <img src={imgLogo} alt="logo Jm" className="logoJm" />
     </div>
   );
 };

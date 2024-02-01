@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
+import { NavLink } from "react-router-dom";
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 import Typewriter from "typewriter-effect";
 
@@ -66,7 +67,7 @@ const Home = () => {
                       autoStart: true,
                       loop: true,
                       delay: 100,
-                      strings: ["developpeur Web"],
+                      strings: ["développeur Web"],
                     }}
                   ></Typewriter>
                 </span>
@@ -74,12 +75,46 @@ const Home = () => {
               <img src="https://i.postimg.cc/d0tBt3zn/moi.webp" alt="jm" />
               <div>
                 <p>
-                  Je nourris une passion profonde pour l'informatique et
-                  consacre la majeure partie de mon temps au codage. Je suis
-                  fier de vous présenter mes services, et en attendant, je vous
-                  invite à explorer les projets que j'ai concrétisés, ainsi que
-                  mon curriculum vitae.
+                  Je suis passionné par l'informatique et consacre la majeure
+                  partie de mon temps au codage. Je suis fier de vous présenter
+                  mes services, et en attendant, je vous invite à explorer les
+                  projets que j'ai concrétisés, ainsi que ma description.
                 </p>
+                <div className="homeLiens">
+                  <NavLink to="/realisations">
+                    <img
+                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      alt="fleche gauche"
+                    />
+                    Voir mes projets
+                    <img
+                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      alt="fleche droite"
+                    />
+                  </NavLink>
+                  <NavLink to="/presentation">
+                    <img
+                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      alt="fleche gauche"
+                    />
+                    En savoir plus
+                    <img
+                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      alt="fleche droite"
+                    />
+                  </NavLink>
+                  <NavLink to="/contact">
+                    <img
+                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      alt="fleche gauche"
+                    />
+                    Me contacter
+                    <img
+                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      alt="fleche droite"
+                    />
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>

@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+
+  /**   General **/
+
   main {
     margin: 20px;
   }
@@ -6,8 +9,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 10px;
   }
+  footer {
+    p {
+      font-size: 10px;
+      padding-bottom: 20px;
+    }
+  }
+
+  /** Header **/
+
+  .logoJm {
+    height: 80px;
+  }
+
   .navigation {
     ul {
       flex-direction: column;
@@ -16,9 +32,15 @@
   .banner {
     height: auto;
   }
+
+  /** Présentation **/
+
   .cv_text {
     padding: 0;
   }
+
+  /** Home **/
+  
   .smiley-hand {
     font-size: 2em;
   }
@@ -26,5 +48,16 @@
     img {
       height: 200px;
     }
+    p {
+      width: 300px;
+      padding-bottom: 50px;
+    }
+  }
+  .homeLiens {
+    img {
+      height: 20px;
+      padding-top: 0;
+    }
+    gap: 20px;
   }
 }
