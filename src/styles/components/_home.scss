@@ -1,0 +1,39 @@
+@keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    20%, 90% {
+      transform: rotate(50deg);
+    }
+    40%, 80% {
+      transform: rotate(-25deg);
+    }
+  }
+
+  .smiley-hand {
+    font-size: 4em;
+    animation: wave 5s infinite;
+    margin-bottom: 40px;
+  }
+  
+  .home__structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home__structure__components{
+display: flex;
+flex-direction: column;
+padding-top: 60px;
+align-items: center;
+text-align: center;
+gap: 30px;
+  }
+
+.home__structure__welcom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

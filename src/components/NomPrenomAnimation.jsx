@@ -1,7 +1,7 @@
 // NomPrenomAnimation.js
 import React, { useEffect, useState } from 'react';
 
-const NomPrenomAnimation = ({ firstName, speed, delay }) => {
+const NomPrenomAnimation = ({ firstName, speed, delay, style }) => {
   const [animatedFirstName, setAnimatedFirstName] = useState('');
 
   useEffect(() => {
@@ -29,8 +29,8 @@ const NomPrenomAnimation = ({ firstName, speed, delay }) => {
   }
 
   return (
-    <div className="animation-container">
-      <span>{animatedFirstName}</span>
+    <div style={style}>
+      {animatedFirstName}
     </div>
   );
 };
