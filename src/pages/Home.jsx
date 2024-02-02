@@ -72,7 +72,7 @@ const Home = () => {
                   ></Typewriter>
                 </span>
               </div>
-              <img src="https://i.postimg.cc/d0tBt3zn/moi.webp" alt="jm" />
+              <img src="https://i.postimg.cc/xCzfkTcH/Moi.webp" alt="jm" />
               <div>
                 <p>
                   Je suis passionné par l'informatique et consacre la majeure
