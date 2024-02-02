@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 import Form from "../components/Form";
 
 const Contact = () => {
-  const firstName = "Pour me contacter";
+  const firstName = "Me contacter";
   const [animationTriggered, setAnimationTriggered] = useState(false);
+  const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   useEffect(() => {
     if (!animationTriggered) {
@@ -12,18 +14,24 @@ const Contact = () => {
     }
   }, [animationTriggered]);
 
+  const getFontSize = () => {
+    return isSmallScreen ? "40px" : "80px";
+  };
+
   return (
     <>
       <main>
         <section>
-          <NomPrenomAnimation firstName={firstName} speed={100} delay={1200} />
-        </section>
-        <section>
           <div className="contact">
+            <NomPrenomAnimation
+              style={{fontSize: getFontSize() }}
+              firstName={firstName}
+              speed={100}
+              delay={1200}
+            />
             <h2>Une question ?</h2>
             <p>
-              N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24
-              heures
+              N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures
             </p>
             <Form />
           </div>

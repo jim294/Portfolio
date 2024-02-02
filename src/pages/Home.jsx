@@ -26,7 +26,7 @@ const Home = () => {
     <>
       <main>
         <section className="home">
-          <div className="home__structure">
+          <div className="titleStructure">
             <div className="home__structure__welcom">
               <div className="smiley-hand" role="img" aria-label="smiley-hand">
                 👋

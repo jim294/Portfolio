@@ -2,27 +2,53 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 0 86px;
-    div {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    margin-bottom: 80px;
   }
+
+.iconesAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4{
+        border: 1px solid black;
+        box-shadow: 0 0 42px rgba(0, 0, 0, 1.3); /* Ajoute une ombre douce */
+        border-radius: 5px; /* Arrondit les coins du titre */
+        padding: 10px; 
+    }
+}
 
 .icone {
     height: 90px;
+
 }
 
 .listIcones {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* ou justify-content: space-around; */
-    align-items: center; /* ou align-items: flex-start; selon vos besoins */
+    text-align: center;
+    align-items: center;
     gap: 100px;
     margin: 43px auto 50px;
 }
 
 .icone {
-    margin-bottom: 20px; /* Ajustez la marge selon vos besoins */
+    margin-bottom: 20px;
 }
+
+.listIconesDetouring {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.ancres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px dotted black;
+}
+

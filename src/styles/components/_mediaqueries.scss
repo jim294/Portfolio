@@ -11,10 +11,27 @@
     margin: 10px;
   }
   footer {
-    p {
-      font-size: 10px;
-      padding-bottom: 20px;
+    flex-direction: column-reverse;
+    gap: 10px;
+    .footerCitation{
+      width: 80%;
+      padding-top: 10px;
     }
+    .footerLogo {
+      text-align: center;
+    }
+    .footerCitation {
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+
+  h3 {
+    font-size: x-large;
+  }
+
+  h4 {
+    font-size: large;
   }
 
   /** Header **/
@@ -28,14 +45,23 @@
       flex-direction: column;
     }
   }
-  .banner {
-    height: auto;
-  }
 
   /** Présentation **/
 
+  .banner {
+    height: auto;
+    img{
+      height: 150px;
+      margin-right: 0;
+    }
+
+  }
   .cv_text {
     padding: 0;
+    margin-bottom: 0;
+  }
+  .icone {
+    height: 70px;
   }
 
   /** Home **/

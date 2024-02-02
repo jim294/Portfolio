@@ -1,9 +1,6 @@
+{
+  "languages":
 [
-	{
-	  "title": "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
-	  "description":
-		"React"
-	},
 	{
 	  "title": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
 	  "description":
@@ -20,7 +17,40 @@
 		"Css"
 	},
 	{
-	  "title": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-	  "description": "javaScript"
-	}
+		"title": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+		"description": "javaScript"
+	  },
+	  {
+		"title": "https://upload.wikimedia.org/wikipedia/fr/4/45/MongoDB-Logo.svg",
+		"description": "MongoDb"
+	  }
+  ],
+
+  "frameworks":
+  [
+	  {
+		"title": "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
+		"description":
+		  "React"
+	  }
+  ],
+
+  "tools":
+  [
+	{
+		"title": "https://upload.wikimedia.org/wikipedia/commons/9/95/Font_Awesome_5_brands_github.svg",
+		"description":
+		  "GitHub"
+	  },
+	  {
+		"title": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+		"description":
+		  "Photoshop"
+	  },
+	  {
+		"title": "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
+		"description":
+		  "Premiere pro"
+	  }
   ]
+}

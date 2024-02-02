@@ -63,6 +63,17 @@ $color-6: #23D5AB;
   box-sizing: border-box;
 }
 
+h3 {
+  font-size: xx-large;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: x-large;
+  font-weight: 900;
+}
+
 body {
   background: $color-2;
   font-family: $font-1;
@@ -86,11 +97,33 @@ main {
 
 footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 29px;
+  justify-content: space-evenly;
   padding: 30px;
-  color: #ffff;
-  border-top: 2px solid #323232;
+  border-top: 1px solid #4f086b;
+  .footerCitation{
+    width: 20%;
+    text-align: center;
+    p {
+      font-size: 15px;
+    }
+  }
+  .footerLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    color: #ffff;
+  }
+
+  .footerMedia{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 70px;
+    img {
+      height: 40px;
+    }
+  }
 }
 
