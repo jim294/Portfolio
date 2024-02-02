@@ -12,7 +12,7 @@ const Footer = () => {
         <Link to="/">
           <Logo />
         </Link>
-        <p>&#169; 2020 Jm. All rights reserved</p>
+        <p>&#169; 2024 Jm<br /> All rights reserved</p>
       </div>
       <div className="footerMedia">
       <a href="https://www.linkedin.com/in/jean-marie-deschamps-83a6a4147" target="_blank" rel="noopener noreferrer">
