@@ -159,6 +159,10 @@
   .cards {
     height: 200px;
     width: 100px;
+    &__text{
+      height: 1px;
+      font-size: 9px;
+    }
     &__text__subtitle {
      height: 40px;
      font-size: 7px;
