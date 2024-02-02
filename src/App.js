@@ -32,7 +32,9 @@ function App() {
         <Route path="jim294.github.io/portfolio/" element={<Home />} />
         <Route path="/portfolio" element={<Home />} />
         <Route path="/presentation" element={<Presentation />} />
+        <Route path="jim294.github.io/presentation" element={<Presentation />} />
         <Route path="/realisations" element={<Realisations />} />
+        <Route path="jim294.github.io/realisations" element={<Realisations />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/project/:id" element={<Project />} />
         <Route path="/*" element={<Error />} />
