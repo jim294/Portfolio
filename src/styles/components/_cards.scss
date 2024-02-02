@@ -1,21 +1,26 @@
 .cardsBackground {
-  width: auto;
-  padding: 56px 50px 43px;
   border-radius: 25px;
-  margin: 43px auto 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 80px;
+  padding: 20px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 
 .cards {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    gap: 10px;
+    height: 400px;
+    width: 200px;
     border: 3px solid black;
-    border-radius: 20px;
+    border-radius: 30px;
     transition: transform 0.5s ease, width 0.3s ease, background-color 0.5s ease;
     
   
@@ -23,19 +28,18 @@
       display: flex;
       width: 100%;
       padding: 30px;
-      border-radius: 10px 10px 20px 20px;
+      border-radius: 20px 20px 0px 0px;
       background-color: black;
       color: white;
       justify-content: center;
       align-items: center;
-      font-size: 18px;
+      font-size: 13px;
       font-weight: 500;
  }
   
     &__card {
-      display: block;
       width: 100%;
-      height: 339px;
+      height: 200px;
       object-fit: contain;
       margin: 0 auto;
       padding: 10px;
@@ -43,15 +47,15 @@
 
     &__text__subtitle {
       display: flex;
-      width: 100%;
-      height: 24%;
+      height: 130px;
       padding: 30px;
-      border-radius: 20px 20px 10px 10px;
-      background-color: rgb(56, 55, 55);
+      border-radius: 0px 0px 20px 20px;
+      background-color: black;
       color: white;
       justify-content: center;
       align-items: center;
-      font-size: 18px;
+      text-align: center;
+      font-size: 15px;
       font-weight: 500;
     }
   }
@@ -61,4 +65,14 @@
     background-color: rgba(0, 0, 0, 0.284);
   }
 
+  @media (min-width: 600px) {
+    .cards {
+      width: 300px; /* For screens wider than 600px, maintain the width of 300px */
+    }
+  }
   
+  @media (min-width: 1200px) {
+    .cards {
+      width: 400px; /* For screens wider than 1200px, increase the width to 400px */
+    }
+  }

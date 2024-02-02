@@ -1,9 +1,6 @@
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   /**   General **/
 
-  main {
-    margin: 20px;
-  }
   header {
     flex-direction: column;
     justify-content: center;
@@ -95,8 +92,6 @@
   /** Cards **/
 
 
-
-
   /** Project **/
 
   /** carousel **/
@@ -153,6 +148,21 @@
       a {
         font-size: 20px;
       }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .cardsBackground {
+    grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
+  }
+  .cards {
+    height: 200px;
+    width: 100px;
+    &__text__subtitle {
+     height: 40px;
+     font-size: 7px;
+     padding: 15px;
     }
   }
 }

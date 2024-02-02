@@ -8,7 +8,7 @@ const Presentation = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   const getFontSize = () => {
-    return isSmallScreen ? "40px" : "60px";
+    return isSmallScreen ? "40px" : "50px";
   };
 
   return (

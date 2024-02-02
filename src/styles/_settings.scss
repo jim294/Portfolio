@@ -88,9 +88,10 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  margin: 0 100px;
+  align-items: center;
+  margin: 20px 100px 50px 100px;
   gap: 43px;
-  min-height: 60vh; /* Au moins 100% de la hauteur de la vue */
+  min-height: 60vh;
   position: relative;
 }
 

@@ -16,7 +16,7 @@ const Realisations = () => {
 
   return (
     <>
-      <main>
+      
         <section>
           <NomPrenomAnimation firstName={firstName} speed={100} delay={1200} />
         </section>
@@ -31,7 +31,7 @@ const Realisations = () => {
             />
           ))}
         </section>
-      </main>
+     
     </>
   );
 };
