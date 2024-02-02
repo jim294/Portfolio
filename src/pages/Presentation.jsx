@@ -90,6 +90,7 @@ const Presentation = () => {
         </section>
         <h3 id="skills">2-Skills</h3>
         <section className="iconesAll">
+          <div className="iconesAllItem">
           <h4>- Languages & Databases -</h4>
           <div className="listIcones">
             {Icones.languages.map((item, index) => (
@@ -99,6 +100,8 @@ const Presentation = () => {
               </div>
             ))}
           </div>
+          </div>
+          <div>
           <h4>- Frameworks & Technologies -</h4>
           <div className="listIcones">
             {Icones.frameworks.map((item, index) => (
@@ -108,6 +111,8 @@ const Presentation = () => {
               </div>
             ))}
           </div>
+          </div>
+          <div>
           <h4>- Tools & Platforms -</h4>
           <div className="listIcones">
             {Icones.tools.map((item, index) => (
@@ -116,6 +121,7 @@ const Presentation = () => {
                 <p>{item.description}</p>
               </div>
             ))}
+          </div>
           </div>
         </section>
       </main>

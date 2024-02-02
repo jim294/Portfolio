@@ -59,9 +59,15 @@
   .cv_text {
     padding: 0;
     margin-bottom: 0;
+    p{
+      font-size: smaller;
+    }
   }
   .icone {
     height: 70px;
+  }
+  .listIcones {
+    gap: 20px;
   }
 
   /** Home **/
