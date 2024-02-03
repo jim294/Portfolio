@@ -12,9 +12,17 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   img {
     width: 200px;
   }
+}
+
+.arrowMediaQueries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .mediaQueriesLeft {
