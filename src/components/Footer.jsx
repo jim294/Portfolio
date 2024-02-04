@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footerCitation">
-        <p>“Le succès c'est d'aller d'échec en échec sans perdre son enthousiasme.”</p>
+        <p>“Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.”</p>
       </div>
       <div className="footerLogo">
         <Link to="/">

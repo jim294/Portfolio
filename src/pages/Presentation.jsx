@@ -75,7 +75,7 @@ const Presentation = () => {
           <p>
             Après l'obtention de mon diplôme, mon objectif principal est de
             continuer à me perfectionner, explorer de nouvelles technologies et
-            rester à la pointe des dernières tendances du développement web. Je
+            rester à la pointe des dernières tendances du développement web.<br/> Je
             suis convaincu que l'apprentissage continu est la clé pour exceller
             dans ce domaine en constante évolution.
           </p>

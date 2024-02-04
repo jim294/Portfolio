@@ -11,7 +11,7 @@
 			"https://i.postimg.cc/PqRmX4br/2024-01-30-11-06-43.webp",
 			"https://i.postimg.cc/vTRf9ZSJ/2024-01-30-11-06-50.webp"
 		],
-		"description": "J'ai débuté en tant que développeur web chez Booki, une start-up souhaitant créer un site permettant aux utilisateurs de trouver des hébergements et des activités dans leur ville. En collaboration avec Sarah, la CTO, et Loïc, l’UI designer, j'avais pour mission d'intégrer l'interface du site avec HTML et CSS. Je devais compléter le fichier index.html et le dossier CSS en m'inspirant de la base de code fournie. Le plus gros du travail etait la validité du code, le web sémantique, l'importance des validateurs, l'utilisation d'un IDE, les spécificités CSS, l'étude de la maquette, et la séparation du HTML et du CSS. J'ai pris soin de l'implémentation d'une interface responsive avec HTML et CSS, l'installation d'un environnement de développement front-end, et l'intégration de contenu conformément à une maquette.",
+		"description": "J'ai débuté en tant que développeur web chez Booki, une start-up souhaitant créer un site permettant aux utilisateurs de trouver des hébergements et des activités dans leur ville. En collaboration avec Sarah, la CTO, et Loïc, l’UI designer, j'avais pour mission d'intégrer l'interface du site avec HTML et CSS. Je devais compléter le fichier index.html et le dossier CSS en m'inspirant de la base de code fournie. Le plus gros du travail etait la validité du code, le web sémantique, l'importance des validateurs, l'utilisation d'un IDE, les spécificités CSS, l'étude de la maquette, et la séparation du HTML et du CSS. J'ai pris soin de l'implémentation d'une interface responsive avec HTML et CSS, l'installation d'un environnement de développement frontend, et l'intégration de contenu conformément à une maquette.",
 		"rating": "2",
 		"site": "Agence d'hébergements en ligne",
 		"lien1": [
@@ -37,7 +37,7 @@
 			"https://i.postimg.cc/RVdJCd45/Snag-1459cc40.webp",
 			"https://i.postimg.cc/qqXh3XKK/Snag-1459a55f.webp"
 		],
-		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme OhMyFood. Le site contient 4 menus dans un premier temps. ",
+		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Fini le temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre quatre restaurateurs d’utiliser la plateforme OhMyFood. Le site contient quatre menus dans un premier temps. ",
 		"rating": "3",
 		"site": "Un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
 		"lien1": [
@@ -87,7 +87,7 @@
 			"https://i.postimg.cc/D0FmnJNw/sophie-bluel.webp",
 			"https://i.postimg.cc/ZqBWch34/Snag-14609fb0.webp"
 		],
-		"description": " Développement front-end avec travaille sur la conception du site portfolio d’une architecte d’intérieur avec 3 missions principales: Développement de la page de présentation des travaux de l'architecte, puis de la page de connexion de l'administrateur du site (le client) (code à créer de zéro) et enfin, développement de la modale permettant d'uploader de nouveaux médias (code à créer from scratch).",
+		"description": " Développement frontend avec travaille sur la conception du site portfolio d’une architecte d’intérieur avec trois missions principales: Développement de la page de présentation des travaux de l'architecte, puis de la page de connexion de l'administrateur du site et enfin, développement de la modale permettant d'uploader de nouveaux médias.",
 		"rating": "5",
 		"site": "Site web dynamique d'une photographe",
 		"lien1": [
@@ -113,7 +113,7 @@
 			"https://i.postimg.cc/SxQ8c5Dx/Snag-146222a6.webp",
 			"https://i.postimg.cc/wTpDj3NJ/Snag-14622268.webp"
 		],
-		"description": "Une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Il s'agit ici d'un projet React pour le développement de l’ensemble de l’application. Utilisation du backend / Data ainsi que de Create React App.",
+		"description": "Une stack complète en JavaScript avec NodeJS côté backend, et React côté frontend. Il s'agit ici d'un projet React pour le développement de l’ensemble de l’application. Utilisation du backend / Data ainsi que de Create React App.",
 		"rating": "4",
 		"site": "Agence de location immobilière en ligne",
 		"lien1": [
@@ -141,7 +141,7 @@
 			"https://i.postimg.cc/JhvkVhms/Snag-146623fb.webp",
 			"https://i.postimg.cc/6qN4q18w/Snag-14662458.webp"
 		],
-		"description": "Proposition de services d’optimisation SEO. Pour ce faire, analyse du site internet afin d'augmenter le trafic grâce au référencement naturel et amelioration de celui-ci afin améliorer ses performances techniques.",
+		"description": "Proposition de services d’optimisation SEO. Pour ce faire, analyse du site internet afin d'augmenter le trafic grâce au référencement naturel et amelioration de celui-ci afin d'optimiser ses performances techniques.",
 		"rating": "5",
 		"site": "Site d'une photographe",
 		"lien1": [
@@ -168,7 +168,7 @@
 			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
 			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
 		],
-		"description": "Correction de plusieurs bug sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé REact Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
 		"rating": "3",
 		"site": "Site d'une agence évènementielle",
 		"lien1": [
@@ -187,7 +187,7 @@
 	{
 		"id": "bc6f7112",
 		"title": "ArgentBank",
-		"subtitle": "Implémentation du front-end d'une application bancaire avec React",
+		"subtitle": "Implémentation du frontend d'une application bancaire avec React",
 		"cover": "https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
 		"pictures": [
 			"https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
@@ -195,7 +195,7 @@
 			"https://i.postimg.cc/43d6RM9S/Snag-1469a477.webp",
 			"https://i.postimg.cc/hPLbLVnp/Snag-1469a467.webp"
 		],
-		"description": "Argent Bank est une nouvelle banque en ligne, et en tant que développeur front-end, ma mission consistait à mettre en place le tableau de bord utilisateur en deux phases. La première phase concernait l'authentification des utilisateurs avec l'utilisation de React et Redux, en mettant l'accent sur les bonnes pratiques de Green Code. La deuxième phase se concentrait sur les transactions, où je devais proposer les routes API conformes à Swagger pour permettre aux utilisateurs de gérer leurs transactions. La présentation finale devant l'évaluateur impliquait la démonstration du code et des choix effectués, tout en répondant à des questions sur l'intégration, l'utilisation de Redux et la conception des routes API.",
+		"description": "Argent Bank est une nouvelle banque en ligne, et en tant que développeur frontend, ma mission consistait à mettre en place le tableau de bord utilisateur en deux phases. La première phase concernait l'authentification des utilisateurs avec l'utilisation de React et Redux, en mettant l'accent sur les bonnes pratiques de Green Code. La deuxième phase se concentrait sur les transactions, où je devais proposer les routes API conformes à Swagger pour permettre aux utilisateurs de gérer leurs transactions. La présentation finale devant l'évaluateur impliquait la démonstration du code et des choix effectués, tout en répondant à des questions sur l'intégration, l'utilisation de Redux et la conception des routes API.",
 		"rating": "5",
 		"site": "Site d'une banque en ligne ",
 		"lien1": [
