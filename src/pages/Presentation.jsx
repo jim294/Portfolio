@@ -4,7 +4,7 @@ import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 import { useMediaQuery } from "react-responsive";
 
 const Presentation = () => {
-  const presentation = "Laissez moi vous parler de moi...";
+  const presentation = "Laissez-moi vous parler de moi...";
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   const getFontSize = () => {

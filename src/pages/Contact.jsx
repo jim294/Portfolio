@@ -29,9 +29,9 @@ const Contact = () => {
               speed={100}
               delay={1200}
             />
-            <h2>Une question?</h2>
+            <h2>Une question ?</h2>
             <p>
-              N’hésitez pas à m’écrire! Je vous répondrai en moins de 24 heures
+              N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures.
             </p>
             <Form />
           </div>
