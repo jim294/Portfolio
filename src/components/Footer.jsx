@@ -27,6 +27,12 @@ const Footer = () => {
             alt="logo Twitter"
           />
         </a>
+        <a href="https://github.com/jim294?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="logo Twitter"
+          />
+        </a>
         <NavLink to="/contact">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg"
