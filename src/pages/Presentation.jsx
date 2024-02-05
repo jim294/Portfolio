@@ -75,9 +75,9 @@ const Presentation = () => {
           <p>
             Après l'obtention de mon diplôme, mon objectif principal est de
             continuer à me perfectionner, explorer de nouvelles technologies et
-            rester à la pointe des dernières tendances du développement web.<br/> Je
-            suis convaincu que l'apprentissage continu est la clé pour exceller
-            dans ce domaine en constante évolution.
+            rester à la pointe des dernières tendances du développement web.
+            <br /> Je suis convaincu que l'apprentissage continu est la clé pour
+            exceller dans ce domaine en constante évolution.
           </p>
           <p>
             Je suis ouvert aux opportunités de collaboration et de partage de
@@ -90,38 +90,36 @@ const Presentation = () => {
         </section>
         <h3 id="skills">2-Skills</h3>
         <section className="iconesAll">
-          <div className="iconesAllItem">
-          <h4>- Languages & Databases -</h4>
-          <div className="listIcones">
-            {Icones.languages.map((item, index) => (
-              <div className="listIconesDetouring" key={index}>
-                <img src={item.title} alt="icone logo" className="icone" />
-                <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
+            <h4>- Languages & Databases -</h4>
+            <div className="listIcones">
+              {Icones.languages.map((item, index) => (
+                <div className="listIconesDetouring" key={index}>
+                  <img src={item.title} alt="icone logo" className="icone" />
+                  <p>{item.description}</p>
+                </div>
+              ))}
+            </div>
+          <div>
+            <h4>- Frameworks & Technologies -</h4>
+            <div className="listIcones">
+              {Icones.frameworks.map((item, index) => (
+                <div className="listIconesDetouring" key={index}>
+                  <img src={item.title} alt="icone logo" className="icone" />
+                  <p>{item.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
           <div>
-          <h4>- Frameworks & Technologies -</h4>
-          <div className="listIcones">
-            {Icones.frameworks.map((item, index) => (
-              <div className="listIconesDetouring" key={index}>
-                <img src={item.title} alt="icone logo" className="icone" />
-                <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
-          </div>
-          <div>
-          <h4>- Tools & Platforms -</h4>
-          <div className="listIcones">
-            {Icones.tools.map((item, index) => (
-              <div className="listIconesDetouring" key={index}>
-                <img src={item.title} alt="icone logo" className="icone" />
-                <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
+            <h4>- Tools & Platforms -</h4>
+            <div className="listIcones">
+              {Icones.tools.map((item, index) => (
+                <div className="listIconesDetouring" key={index}>
+                  <img src={item.title} alt="icone logo" className="icone" />
+                  <p>{item.description}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       </main>
