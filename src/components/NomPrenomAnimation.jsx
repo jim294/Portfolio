@@ -1,16 +1,16 @@
 // NomPrenomAnimation.js
 import React, { useEffect, useState } from 'react';
 
-const NomPrenomAnimation = ({ firstName, speed, delay, style }) => {
-  const [animatedFirstName, setAnimatedFirstName] = useState('');
+const NomPrenomAnimation = ({ string, speed, delay, style }) => {
+  const [animatedstring, setAnimatedstring] = useState('');
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      animateText(firstName, setAnimatedFirstName, speed);
+      animateText(string, setAnimatedstring, speed);
     }, delay);
 
     return () => clearTimeout(timeoutId);
-  }, [firstName, speed, delay]);
+  }, [string, speed, delay]);
 
   function animateText(text, setText, speed) {
     let index = 0;
@@ -30,7 +30,7 @@ const NomPrenomAnimation = ({ firstName, speed, delay, style }) => {
 
   return (
     <div style={style}>
-      {animatedFirstName}
+      {animatedstring}
     </div>
   );
 };

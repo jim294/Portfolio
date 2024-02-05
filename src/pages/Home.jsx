@@ -33,7 +33,7 @@ const Home = () => {
               </div>
               <NomPrenomAnimation
                 style={{ color: "#FF0000", fontSize: getFontSize() }}
-                firstName={welcom}
+                string={welcom}
                 speed={50}
                 delay={1200}
               />
@@ -45,19 +45,19 @@ const Home = () => {
               <div>
                 <NomPrenomAnimation
                   style={{ fontWeight: "bold" }}
-                  firstName={im}
+                  string={im}
                   speed={50}
                   delay={2000}
                 />
                 <NomPrenomAnimation
                   style={{ fontWeight: "bold" }}
-                  firstName={firstName}
+                  string={firstName}
                   speed={50}
                   delay={2500}
                 />
                 <NomPrenomAnimation
                   style={{ fontWeight: "bold" }}
-                  firstName={name}
+                  string={name}
                   speed={50}
                   delay={3000}
                 />

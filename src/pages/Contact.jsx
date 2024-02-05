@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="contact">
             <NomPrenomAnimation
               style={{fontSize: getFontSize() }}
-              firstName={firstName}
+              string={firstName}
               speed={100}
               delay={1200}
             />

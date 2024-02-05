@@ -17,7 +17,7 @@ const Presentation = () => {
         <div className="titleStructure">
           <NomPrenomAnimation
             style={{ fontSize: getFontSize() }}
-            firstName={presentation}
+            string={presentation}
             speed={50}
             delay={1200}
           />
