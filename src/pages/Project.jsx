@@ -6,7 +6,6 @@ import Carousel from "../components/Carousel";
 import Projects from "../assets/Json/projects.json";
 import Preloader from "../components/Preloader.jsx";
 
-
 const Project = () => {
   const [work, setWork] = useState(null);
   const { id } = useParams();
@@ -20,6 +19,22 @@ const Project = () => {
       navigate("/Error");
     }
   }, [project, navigate]);
+
+  useEffect(() => {
+    const actualiserButton = document.querySelector('button[aria-label="Actualiser"]');
+    const handleActualiserClick = (event) => {
+      event.preventDefault(); // Empêcher le comportement par défaut (rechargement de la page)
+      // Vous pouvez ajouter ici d'autres actions à effectuer lorsque le bouton est cliqué
+    };
+
+    if (actualiserButton) {
+      actualiserButton.addEventListener('click', handleActualiserClick);
+
+      return () => {
+        actualiserButton.removeEventListener('click', handleActualiserClick);
+      };
+    }
+  }, []);
 
   return work == null ? (
     <Preloader />
