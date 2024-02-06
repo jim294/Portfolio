@@ -14,6 +14,10 @@ const Project = () => {
   const project = Projects.find((project) => project.id === id);
 
   useEffect(() => {
+    sessionStorage.setItem("currentPage", window.location.href);
+  }, []);
+
+  useEffect(() => {
     if (project) {
       setWork(project);
     } else {
