@@ -28,10 +28,15 @@
 
   "frameworks":
   [
-	  {
+	{
 		"title": "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg",
 		"description":
 		  "React"
+	  },
+	  {
+		"title": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+		"description":
+		  "Node.js"
 	  }
   ],
 
