@@ -17,7 +17,7 @@ const Project = () => {
     if (project) {
       setWork(project);
     } else {
-      navigate("/Error");
+      navigate(project);
     }
   }, [project, navigate]);
 
