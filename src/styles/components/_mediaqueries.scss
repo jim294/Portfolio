@@ -106,15 +106,17 @@
       align-items: center;
     }
     .carousel__pagination {
-      display: none;
+      font-size: 30px;
     }
     .arrowMediaQueries {
+      margin-top: 25px;
+      height: 20px;
       gap: 0;
     }
     .carousel__arrow {
       img {
         width: 150px;
-        padding: 40px;
+        
       }
     }
     .mediaQueriesLeft {
