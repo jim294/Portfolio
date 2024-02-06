@@ -5,6 +5,7 @@ import Collapse from "../components/Collapse";
 import Carousel from "../components/Carousel";
 import Projects from "../assets/Json/projects.json";
 import Preloader from "../components/Preloader.jsx";
+import CachePage from '../components/CachePage.jsx';
 
 const Project = () => {
   const [work, setWork] = useState(null);
@@ -24,6 +25,7 @@ const Project = () => {
     <Preloader />
   ) : (
     <>
+    <CachePage />
       <Carousel
         images={project.pictures}
         pagination={project.pictures.length}
