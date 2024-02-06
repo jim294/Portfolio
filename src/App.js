@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import Preloader from "./components/Preloader.jsx"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Presentation from "./pages/Presentation";
 import Realisations from "./pages/Realisations";
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Preloader load={load} />
       <BackgroundAnimation />
       <Header />
@@ -40,7 +40,7 @@ function App() {
       </Routes>
       </main> 
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
