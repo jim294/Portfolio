@@ -6,26 +6,30 @@ import Carousel from "../components/Carousel";
 import Projects from "../assets/Json/projects.json";
 import Preloader from "../components/Preloader.jsx";
 
-
 const Project = () => {
   const [work, setWork] = useState(null);
   const { id } = useParams();
+  const navigate = useNavigate();
   const project = Projects.find((project) => project.id === id);
 
   useEffect(() => {
-    if (project) {
+    const storedProjectId = localStorage.getItem("currentProjectId");
+    if (storedProjectId && project && storedProjectId !== project.id) {
+      // If there's a stored project ID and it's different from the current project,
+      // navigate to the stored project
+      navigate(`/projects/${storedProjectId}`);
+    } else {
       setWork(project);
+      // Store the current project ID in localStorage
+      localStorage.setItem("currentProjectId", id);
     }
-  }, [project]);
+  }, [id, project, navigate]);
 
   return work == null ? (
     <Preloader />
   ) : (
     <>
-      <Carousel
-        images={project.pictures}
-        pagination={project.pictures.length}
-      />
+      <Carousel images={project.pictures} pagination={project.pictures.length} />
 
       <section className="project">
         <section className="project__left">
@@ -42,23 +46,14 @@ const Project = () => {
 
         <section className="project__right">
           <figure>
-            <figcaption className="project__photo-nom">
-              Difficulté du projet
-            </figcaption>
+            <figcaption className="project__photo-nom">Difficulté du projet</figcaption>
           </figure>
-          <Stars
-            numberActiveStars={project.rating}
-            numberInactiveStars={5 - project.rating}
-          />
+          <Stars numberActiveStars={project.rating} numberInactiveStars={5 - project.rating} />
         </section>
       </section>
 
       <section className="collapse__project">
-        <Collapse
-          key={Math.random()}
-          title="Description"
-          description={project.description}
-        />
+        <Collapse key={Math.random()} title="Description" description={project.description} />
         <Collapse
           key={Math.random()}
           title="Liens"
@@ -66,11 +61,7 @@ const Project = () => {
             <ul className="collapseLiens">
               <li>
                 <h2>
-                  <a
-                    href={project.lien1}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href={project.lien1} target="_blank" rel="noopener noreferrer">
                     Lien vers projet GitHub
                   </a>
                 </h2>
@@ -79,11 +70,7 @@ const Project = () => {
                 {project.lien2 && (
                   <>
                     <h2>
-                      <a
-                        href={project.lien2[0]}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href={project.lien2[0]} target="_blank" rel="noopener noreferrer">
                         Lien vers page web
                       </a>
                     </h2>
