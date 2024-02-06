@@ -10,16 +10,13 @@ import Preloader from "../components/Preloader.jsx";
 const Project = () => {
   const [work, setWork] = useState(null);
   const { id } = useParams();
-  const navigate = useNavigate();
   const project = Projects.find((project) => project.id === id);
 
   useEffect(() => {
     if (project) {
       setWork(project);
-    } else {
-      navigate(project);
     }
-  }, [project, navigate]);
+  }, [project]);
 
   return work == null ? (
     <Preloader />
