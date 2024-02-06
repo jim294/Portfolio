@@ -1,9 +1,11 @@
 .navigation {
+  display: flex;
   ul {
     display: flex;
     margin: 30px;
     color: white;
     cursor: pointer;
+    text-align: left;
     gap: 60px;
     list-style-type: none;
     li {
@@ -11,15 +13,11 @@
       position: relative;
       transition: transform 0.3s;
     }
-    div {
-      display: flex;
-      gap: 60px;
-    }
   }
 
   a {
     position: relative;
-    text-decoration: none
+    text-decoration: none;
   }
 
   a:hover::after {
