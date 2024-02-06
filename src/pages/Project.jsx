@@ -14,10 +14,6 @@ const Project = () => {
   const project = Projects.find((project) => project.id === id);
 
   useEffect(() => {
-    sessionStorage.setItem("currentPage", window.location.href);
-  }, []);
-
-  useEffect(() => {
     if (project) {
       setWork(project);
     } else {
@@ -25,19 +21,7 @@ const Project = () => {
     }
   }, [project, navigate]);
 
-  useEffect(() => {
-    const handleReload = () => {
-      // Récupérer l'URL de la page actuelle depuis la session
-      const currentPage = sessionStorage.getItem("currentPage");
-      if (currentPage) {
-        window.location.href = currentPage;
-      }
-    };
-    window.addEventListener("beforeunload", handleReload);
-    return () => window.removeEventListener("beforeunload", handleReload);
-  }, []);
-
-  return work == null || !project ? (
+  return work == null ? (
     <Preloader />
   ) : (
     <>
