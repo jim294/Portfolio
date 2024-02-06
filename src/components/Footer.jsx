@@ -12,7 +12,7 @@ const Footer = () => {
         <Link to="/">
           <Logo />
         </Link>
-        <p>&#169; 2024 Jm<br /> All rights reserved</p>
+        <h2>&#169; 2024 Jm<br /> All rights reserved</h2>
       </div>
       <div className="footerMedia">
       <a href="https://www.linkedin.com/in/jean-marie-deschamps-83a6a4147" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const Footer = () => {
         <a href="https://github.com/jim294?tab=repositories" target="_blank" rel="noopener noreferrer">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-            alt="logo Twitter"
+            alt="logo GitHub"
           />
         </a>
         <NavLink to="/contact">
