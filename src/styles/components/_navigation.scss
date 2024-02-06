@@ -14,7 +14,7 @@
       transition: transform 0.3s;
     }
   }
-  
+
   a {
     position: relative;
     text-decoration: none;
@@ -29,6 +29,7 @@
     height: 1px;
     background-color: #000;
   }
+  
   li:hover {
     transform: scale(1.1);
   }

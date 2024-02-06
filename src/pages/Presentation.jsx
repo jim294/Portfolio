@@ -90,15 +90,15 @@ const Presentation = () => {
         </section>
         <h3 id="skills">2-Skills</h3>
         <section className="iconesAll">
-            <h4>- Languages & Databases -</h4>
-            <div className="listIcones">
-              {Icones.languages.map((item, index) => (
-                <div className="listIconesDetouring" key={index}>
-                  <img src={item.title} alt="icone logo" className="icone" />
-                  <p>{item.description}</p>
-                </div>
-              ))}
-            </div>
+          <h4>- Languages & Databases -</h4>
+          <div className="listIcones">
+            {Icones.languages.map((item, index) => (
+              <div className="listIconesDetouring" key={index}>
+                <img src={item.title} alt="icone logo" className="icone" />
+                <p>{item.description}</p>
+              </div>
+            ))}
+          </div>
           <div>
             <h4>- Frameworks & Technologies -</h4>
             <div className="listIcones">

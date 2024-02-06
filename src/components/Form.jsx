@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 emailjs.init("5Mr2YYkIHyzf9e8l7");
 
@@ -33,18 +33,19 @@ const Form = () => {
     setEmailError("");
 
     // Utilisez EmailJS pour envoyer l'email
-    emailjs.send("service_hcharz7", "template_p4xjhxf", {
-      to_name: nom,
-      to_firstName: prenom,
-      from_email: email,
-      message: message,
-    })
-    .then((response) => {
-      alert("Email envoyé", response);
-    })
-    .catch((error) => {
-      console.error("Le mail ne s'est pas envoyé", error);
-    });
+    emailjs
+      .send("service_hcharz7", "template_p4xjhxf", {
+        to_name: nom,
+        to_firstName: prenom,
+        from_email: email,
+        message: message,
+      })
+      .then((response) => {
+        alert("Email envoyé", response);
+      })
+      .catch((error) => {
+        console.error("Le mail ne s'est pas envoyé", error);
+      });
   };
 
   return (
@@ -60,13 +61,12 @@ const Form = () => {
       <div className="case">
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />
-        {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
+        {emailError && <p style={{ color: "red" }}>{emailError}</p>}
       </div>
       <div className="case">
         <label htmlFor="message">Message</label>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
       </div>
-
       <input className="submit" type="submit" value="Envoyer" />
     </form>
   );

@@ -75,10 +75,10 @@ const Home = () => {
               <img src="https://i.postimg.cc/xCzfkTcH/Moi.webp" alt="jm" />
               <div>
                 <p>
-                  Passionné par l'informatique, je consacre la majeure
-                  partie de mon temps au codage. Je suis fier de vous présenter
-                  mes services, et je vous invite à explorer les
-                  projets que j'ai concrétisés, ainsi que ma description.
+                  Passionné par l'informatique, je consacre la majeure partie de
+                  mon temps au codage. Je suis fier de vous présenter mes
+                  services, et je vous invite à explorer les projets que j'ai
+                  concrétisés, ainsi que ma description.
                 </p>
                 <div className="homeLiens">
                   <NavLink to="/realisations">
@@ -125,5 +125,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//https://i.postimg.cc/d0tBt3zn/moi.webp

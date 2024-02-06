@@ -1,16 +1,16 @@
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    background-color: #23A6D5;
-    background-image: url(../../assets/preload.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #preloader-none {
-    opacity: 0;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #23a6d5;
+  background-image: url(../../assets/preload.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#preloader-none {
+  opacity: 0;
+}

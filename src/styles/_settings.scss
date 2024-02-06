@@ -4,58 +4,139 @@
     url(../assets/fonts/Montserrat-Medium.ttf) format("truetype");
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 $font-1: "Montserra";
 
 $color-1: #323232;
-$color-2: #DDD0C8;
+$color-2: #ddd0c8;
 $color-3: #f5ecec;
-$color-4: #E73C7E;
-$color-5: #23A6D5;
-$color-6: #23D5AB;
+$color-4: #e73c7e;
+$color-5: #23a6d5;
+$color-6: #23d5ab;
 
 * {
   padding: 0;
@@ -102,14 +183,16 @@ footer {
   justify-content: space-evenly;
   padding: 30px;
   border-top: 1px solid #4f086b;
-  .footerCitation{
+
+  .footerCitation {
     width: 20%;
     text-align: center;
     p {
       font-size: 15px;
     }
   }
-  .footerLogo{
+
+  .footerLogo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,14 +200,14 @@ footer {
     color: #ffff;
   }
 
-  .footerMedia{
+  .footerMedia {
     display: flex;
     align-items: center;
     gap: 70px;
     padding-bottom: 70px;
+    
     img {
       height: 40px;
     }
   }
 }
-

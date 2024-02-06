@@ -7,20 +7,25 @@
     align-items: center;
     margin: 10px;
   }
+
   footer {
     flex-direction: column-reverse;
     gap: 10px;
-    .footerCitation{
+
+    .footerCitation {
       width: 80%;
       padding-top: 10px;
     }
+
     .footerLogo {
       text-align: center;
     }
+
     .footerCitation {
       font-weight: 800;
       text-align: center;
     }
+
     .footerMedia {
       gap: 20px;
     }
@@ -55,22 +60,24 @@
 
   .banner {
     height: auto;
-    img{
+    img {
       height: 150px;
       margin-right: 0;
     }
-
   }
+
   .cv_text {
     padding: 0;
     margin-bottom: 0;
-    p{
+    p {
       font-size: smaller;
     }
   }
+
   .icone {
     height: 70px;
   }
+
   .listIcones {
     gap: 20px;
   }
@@ -80,6 +87,7 @@
   .smiley-hand {
     font-size: 2em;
   }
+
   .home__structure__components {
     img {
       height: 200px;
@@ -89,6 +97,7 @@
       padding-bottom: 50px;
     }
   }
+
   .homeLiens {
     img {
       height: 20px;
@@ -105,20 +114,23 @@
       flex-direction: column;
       align-items: center;
     }
+
     .carousel__pagination {
       font-size: 30px;
     }
+
     .arrowMediaQueries {
       margin-top: 25px;
       height: 20px;
       gap: 0;
     }
+
     .carousel__arrow {
       img {
         width: 150px;
-        
       }
     }
+
     .mediaQueriesLeft {
       display: block;
     }
@@ -138,19 +150,24 @@
       text-align: center;
     }
   }
+
   .project__right {
     align-items: flex-start;
   }
+
   .project__left {
     li {
       font-size: 10px;
     }
   }
+
   .collapse__project {
     display: flex;
     flex-direction: column;
-    .collapseLiens{
+
+    .collapseLiens {
       align-items: baseline;
+
       a {
         font-size: 20px;
       }
@@ -162,17 +179,20 @@
   .cardsBackground {
     grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
   }
+
   .cards {
     height: 200px;
     width: 100px;
-    &__text{
+
+    &__text {
       height: 1px;
       font-size: 9px;
     }
+
     &__text__subtitle {
-     height: 40px;
-     font-size: 6px;
-     padding: 15px;
+      height: 40px;
+      font-size: 6px;
+      padding: 15px;
     }
   }
 }

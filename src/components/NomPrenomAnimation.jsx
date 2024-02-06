@@ -1,8 +1,8 @@
 // NomPrenomAnimation.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const NomPrenomAnimation = ({ string, speed, delay, style }) => {
-  const [animatedstring, setAnimatedstring] = useState('');
+  const [animatedstring, setAnimatedstring] = useState("");
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -18,8 +18,8 @@ const NomPrenomAnimation = ({ string, speed, delay, style }) => {
     function addNextLetter() {
       if (index < text.length) {
         const currentLetter = text[index];
-        const animatedText = currentLetter === ' ' ? ' ' : currentLetter;
-        setText(prevText => prevText + animatedText);
+        const animatedText = currentLetter === " " ? " " : currentLetter;
+        setText((prevText) => prevText + animatedText);
         index++;
         setTimeout(addNextLetter, speed);
       }
@@ -28,11 +28,7 @@ const NomPrenomAnimation = ({ string, speed, delay, style }) => {
     addNextLetter();
   }
 
-  return (
-    <div style={style}>
-      {animatedstring}
-    </div>
-  );
+  return <div style={style}>{animatedstring}</div>;
 };
 
 export default NomPrenomAnimation;

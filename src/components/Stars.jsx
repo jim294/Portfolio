@@ -2,7 +2,13 @@ function Stars({ numberActiveStars, numberInactiveStars }) {
   const stars = [];
 
   for (let i = 0; i < numberActiveStars; i++) {
-    stars.push(<img key={i} src="https://i.postimg.cc/BZdMcqKQ/Vector-star-active.webp" alt="Étoile active" />);
+    stars.push(
+      <img
+        key={i}
+        src="https://i.postimg.cc/BZdMcqKQ/Vector-star-active.webp"
+        alt="Étoile active"
+      />
+    );
   }
 
   for (let i = 0; i < numberInactiveStars; i++) {

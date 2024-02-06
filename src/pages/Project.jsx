@@ -6,7 +6,6 @@ import Carousel from "../components/Carousel";
 import Projects from "../assets/Json/projects.json";
 import Preloader from "../components/Preloader.jsx";
 
-
 const Project = () => {
   const [work, setWork] = useState(null);
   const { id } = useParams();
@@ -29,7 +28,6 @@ const Project = () => {
         images={project.pictures}
         pagination={project.pictures.length}
       />
-
       <section className="project">
         <section className="project__left">
           <h1 className="project__title">{project.title}</h1>
@@ -42,7 +40,6 @@ const Project = () => {
             ))}
           </ul>
         </section>
-
         <section className="project__right">
           <figure>
             <figcaption className="project__photo-nom">
