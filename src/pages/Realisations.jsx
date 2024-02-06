@@ -18,7 +18,7 @@ const Realisations = () => {
     <>
       
         <section>
-          <NomPrenomAnimation firstName={firstName} speed={100} delay={1200} />
+          <NomPrenomAnimation string={firstName} speed={100} delay={1200} />
         </section>
         <section className="cardsBackground">
           {Projects.map((project, index) => (
