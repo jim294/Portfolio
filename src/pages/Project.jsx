@@ -1,19 +1,35 @@
-// project.jsx
-import React from "react";
-import { useParams } from "react-router-dom"; // Importez useParams pour récupérer les paramètres d'URL
+import React, { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import Stars from "../components/Stars";
 import Collapse from "../components/Collapse";
 import Carousel from "../components/Carousel";
+import Projects from "../assets/Json/projects.json";
 import Preloader from "../components/Preloader.jsx";
 
-const Project = ({ project }) => {
-  const { projectId } = useParams(); // Récupérez l'ID du projet depuis l'URL
 
-  return (
+const Project = () => {
+  const [work, setWork] = useState(null);
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const project = Projects.find((project) => project.id === id);
+
+  useEffect(() => {
+    if (project) {
+      setWork(project);
+    } else {
+      navigate("/Error");
+    }
+  }, [project, navigate]);
+
+  return work == null ? (
+    <Preloader />
+  ) : (
     <>
-      <Preloader />
-      {/* Utilisez l'ID du projet dans la génération du lien */}
-      <Carousel images={project.pictures} pagination={project.pictures.length} />
+      <Carousel
+        images={project.pictures}
+        pagination={project.pictures.length}
+      />
+
       <section className="project">
         <section className="project__left">
           <h1 className="project__title">{project.title}</h1>
@@ -29,9 +45,14 @@ const Project = ({ project }) => {
 
         <section className="project__right">
           <figure>
-            <figcaption className="project__photo-nom">Difficulté du projet</figcaption>
+            <figcaption className="project__photo-nom">
+              Difficulté du projet
+            </figcaption>
           </figure>
-          <Stars numberActiveStars={project.rating} numberInactiveStars={5 - project.rating} />
+          <Stars
+            numberActiveStars={project.rating}
+            numberInactiveStars={5 - project.rating}
+          />
         </section>
       </section>
 
