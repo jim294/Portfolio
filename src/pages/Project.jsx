@@ -21,10 +21,8 @@ const Project = () => {
     }
   }, [project, navigate]);
 
-  // Cette fonction effectuera le rechargement du composant lorsqu'il est monté initialement
   useEffect(() => {
     const handleReload = () => {
-      setWork(null);
       window.location.reload();
     };
     window.addEventListener("beforeunload", handleReload);
