@@ -37,7 +37,7 @@ const Project = () => {
     return () => window.removeEventListener("beforeunload", handleReload);
   }, []);
 
-  return work == null ? (
+  return work == null || !project ? (
     <Preloader />
   ) : (
     <>
