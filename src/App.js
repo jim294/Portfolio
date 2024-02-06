@@ -34,8 +34,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/presentation" element={<Presentation />} />
           <Route path="/realisations" element={<Realisations />} />
-          <Route path="/contact" element={<Contact />} />
-          {/* Générez dynamiquement les routes des projets */}
           {Projects.map((project) => (
             <Route
               key={project.id}
@@ -43,6 +41,8 @@ function App() {
               element={<Project project={project} />}
             />
           ))}
+          <Route path="/project/:projectId" element={<Project />} /> {/* Route dynamique pour le projet */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </main>

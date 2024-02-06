@@ -1,16 +1,18 @@
+// project.jsx
 import React from "react";
-
+import { useParams } from "react-router-dom"; // Importez useParams pour récupérer les paramètres d'URL
 import Stars from "../components/Stars";
 import Collapse from "../components/Collapse";
 import Carousel from "../components/Carousel";
 import Preloader from "../components/Preloader.jsx";
 
 const Project = ({ project }) => {
+  const { projectId } = useParams(); // Récupérez l'ID du projet depuis l'URL
 
-
-  <Preloader />
   return (
     <>
+      <Preloader />
+      {/* Utilisez l'ID du projet dans la génération du lien */}
       <Carousel images={project.pictures} pagination={project.pictures.length} />
       <section className="project">
         <section className="project__left">
