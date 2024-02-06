@@ -16,6 +16,7 @@
   justify-content: center;
   img {
     width: 200px;
+    padding: 30px;
   }
 }
 
@@ -49,7 +50,7 @@
 .carousel__pagination {
   grid-column: 1 / span 3;
   justify-self: center;
-  color: #ff8d94;
+  color: white;
   font-size: 40px;
   padding-top: 20px;
 }

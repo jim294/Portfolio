@@ -108,9 +108,13 @@
     .carousel__pagination {
       display: none;
     }
+    .arrowMediaQueries {
+      gap: 0;
+    }
     .carousel__arrow {
       img {
         width: 150px;
+        padding: 40px;
       }
     }
     .mediaQueriesLeft {
@@ -121,7 +125,7 @@
     }
 
     .carousel__image-container {
-      width: 300px;
+     
     }
   }
 

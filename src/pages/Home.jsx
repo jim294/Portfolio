@@ -32,7 +32,7 @@ const Home = () => {
                 👋
               </div>
               <NomPrenomAnimation
-                style={{ color: "#FF0000", fontSize: getFontSize() }}
+                style={{ color: "black", fontSize: getFontSize() }}
                 string={welcom}
                 speed={50}
                 delay={1200}
