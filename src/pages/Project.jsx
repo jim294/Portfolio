@@ -27,7 +27,11 @@ const Project = () => {
 
   useEffect(() => {
     const handleReload = () => {
-      window.location.reload();
+      // Récupérer l'URL de la page actuelle depuis la session
+      const currentPage = sessionStorage.getItem("currentPage");
+      if (currentPage) {
+        window.location.href = currentPage;
+      }
     };
     window.addEventListener("beforeunload", handleReload);
     return () => window.removeEventListener("beforeunload", handleReload);
