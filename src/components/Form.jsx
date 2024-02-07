@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-emailjs.init("5Mr2YYkIHyzf9e8l7");
+emailjs.init(process.env.REACT_APP_EMAILJS_USER_ID);
 
 const Form = () => {
   const [emailError, setEmailError] = useState("");
