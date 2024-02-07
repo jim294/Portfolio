@@ -76,7 +76,7 @@ const Home = () => {
               <div>
                 <p>
                   Passionné par l'informatique, je consacre la majeure partie de
-                  mon temps au codage. Je suis fier de vous présenter mes
+                  mon temps à la programmation. Je suis fier de vous présenter mes
                   services, et je vous invite à explorer les projets que j'ai
                   concrétisés, ainsi que ma description.
                 </p>
