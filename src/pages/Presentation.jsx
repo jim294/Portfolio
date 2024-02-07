@@ -26,16 +26,9 @@ const Presentation = () => {
           imageUrl="https://i.postimg.cc/508jhqnr/Sation.webp"
           alt="image de montagne"
         />
-        <div className="ancres">
-          <h4>
-            <a href="#presentation">1-Présentation</a>
-          </h4>
-          <h4>
-            <a href="#skills">2-Skills</a>
-          </h4>
-        </div>
+
         <section className="cv_text">
-          <h3 id="presentation">1-Présentation</h3>
+          <h3>1-Présentation</h3>
           <p>
             Je m'appelle Jean-Marie DESCHAMPS, originaire de Besançon. Après
             avoir obtenu avec succès une licence en commerce (Bac+3), j'ai
@@ -88,8 +81,8 @@ const Presentation = () => {
             complémentaires à tout projet.
           </p>
         </section>
-        <h3 id="skills">2-Skills</h3>
         <section className="iconesAll">
+        <h3>2-Skills</h3>
           <h4>- Languages & Databases -</h4>
           <div className="listIcones">
             {Icones.languages.map((item, index) => (
