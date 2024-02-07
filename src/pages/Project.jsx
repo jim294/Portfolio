@@ -24,14 +24,14 @@ const Project = () => {
     <Preloader />
   ) : (
     <>
-      <Carousel
-        images={project.pictures}
-        pagination={project.pictures.length}
-      />
       <section className="project">
         <section className="project__left">
           <h1 className="project__title">{project.title}</h1>
           <p className="project__location">{project.site}</p>
+      <Carousel
+        images={project.pictures}
+        pagination={project.pictures.length}
+      />
           <ul>
             {project.tags.map((tag) => (
               <li className="project__tags" key={tag}>

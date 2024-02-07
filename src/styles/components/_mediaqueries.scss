@@ -144,10 +144,19 @@
   .project {
     flex-direction: column;
     gap: 30px;
+    margin-top: 20px;
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
       text-align: center;
+    }
+
+    &__title {
+      font-size: 30px;
+    }
+  
+    &__location {
+      font-size: 15px;
     }
   }
 

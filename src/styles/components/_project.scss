@@ -1,6 +1,8 @@
 .project {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  margin-top: 50px;
   width: 100%;
   color: $color-1;
 
@@ -27,11 +29,11 @@
   }
 
   &__title {
-    font-size: 36px;
+    font-size: 60px;
   }
 
   &__location {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   &__tags {
