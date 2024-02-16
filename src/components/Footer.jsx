@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
       <div className="footerMedia">
         <a
-          href="https://www.linkedin.com/in/jean-marie-deschamps-83a6a4147"
+          href="https://www.linkedin.com/in/jean-marie-deschamps25"
           target="_blank"
           rel="noopener noreferrer"
         >
