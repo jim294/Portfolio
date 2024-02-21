@@ -7,6 +7,7 @@ import Realisations from "./pages/Realisations";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Project from "./pages/Project";
+import ProjectPerso from "./pages/ProjectPerso";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BackgroundAnimation from "./components/BackgroundAnimation";
@@ -35,7 +36,8 @@ function App() {
           <Route path="/presentation" element={<Presentation />} />
           <Route path="/realisations" element={<Realisations />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/project/:id" element={<Project />} />
+          <Route path="/projectcours/:id" element={<Project />} />
+          <Route path="/projectperso/:id" element={<ProjectPerso />} />
           <Route path="/*" element={<Error />} />
         </Routes>
       </main>

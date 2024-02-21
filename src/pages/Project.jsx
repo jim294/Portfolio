@@ -10,8 +10,8 @@ const Project = () => {
   const [work, setWork] = useState(null);
   const { id } = useParams();
   const navigate = useNavigate();
-  const project = Projects.find((project) => project.id === id);
-
+  const project = Projects.Openclassrooms.find((project) => project.id === id);
+ 
   useEffect(() => {
     if (project) {
       setWork(project);

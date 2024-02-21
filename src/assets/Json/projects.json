@@ -1,6 +1,8 @@
-[
+{
+	"Openclassrooms":
+	[
 	{
-		"id": "b9123946",
+		"id": "Booki",
 		"title": "Booki",
 		"subtitle":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "https://i.postimg.cc/Y01gxB5h/booki.webp",
@@ -26,7 +28,7 @@
 		]
 	},
 	{
-		"id": "46d188c5",
+		"id": "OhMyFood",
 		"title": "OhMyFood",
 		"subtitle":"Amélioration de l'interface d'un site mobile avec des animations CSS",
 		"cover": "https://i.postimg.cc/63ZG9N5Y/ohmyfood.webp",
@@ -54,7 +56,7 @@
 		]
 	},
 	{
-		"id": "7af00cd6",
+		"id": "printit",
 		"title": "Print It !",
 		"subtitle": "Premiers pas sur le langage JavaScript",
 		"cover": "https://i.postimg.cc/W14FdZ1D/print-it.webp",
@@ -79,7 +81,7 @@
 		]
 	},
 	{
-		"id": "0979876d",
+		"id": "sophiebluel",
 		"title": "Sophie Bluel",
 		"subtitle": "Création d'une page web dynamique avec JavaScript",
 		"cover": "https://i.postimg.cc/D0FmnJNw/sophie-bluel.webp",
@@ -103,7 +105,7 @@
 		]
 	},
 	{
-		"id": "c67ab8a7",
+		"id": "Kasa",
 		"title": "Kasa",
 		"subtitle": "Création d'une application web de location immobilière avec React",
 		"cover": "https://i.postimg.cc/T2mrxnKf/Kasa.webp",
@@ -131,7 +133,7 @@
 		]
 	},
 	{
-		"id": "f72a452f",
+		"id": "ninacarducchi",
 		"title": "Nina Carducci",
 		"subtitle": "Optimisation du référencement d'un site de photographe",
 		"cover": "https://i.postimg.cc/T3kb094q/nina-meta.webp",
@@ -156,7 +158,7 @@
 		]
 	},
 	{
-		"id": "b4c67936",
+		"id": "724events",
 		"title": "724events",
 		"subtitle": "Débuggage de site d'une agence d'événementiel",
 		"cover": "https://i.postimg.cc/YCxRHYyh/724events.webp",
@@ -185,7 +187,7 @@
 		]
 	},
 	{
-		"id": "bc6f7112",
+		"id": "ArgentBank",
 		"title": "ArgentBank",
 		"subtitle": "Implémentation du frontend d'une application bancaire avec React",
 		"cover": "https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
@@ -209,4 +211,126 @@
 			"Sass"
 		]
 	}
+],
+"Perso":
+[
+	{
+		"id": "listepays",
+		"title": "Liste des pays",
+		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
+		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"pictures": [
+			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
+			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
+			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
+			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
+			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
+			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+		],
+		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"rating": "3",
+		"site": "Drapeaux du Monde, capitales et Populations",
+		"lien1": [
+			"https://github.com/jim294/77events.io"
+		],
+		"lien2": [
+			"https://77events-jim294.netlify.app/"
+		],
+		"tags": [
+			"HTML",
+			"Css",
+			"React",
+			"Sass"
+		]
+	},
+	{
+		"id": "nombredor",
+		"title": "Nombre d'or",
+		"subtitle": "trouver le nombre d'or",
+		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"pictures": [
+			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
+			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
+			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
+			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
+			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
+			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+		],
+		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"rating": "3",
+		"site": "Drapeaux du Monde, capitales et Populations",
+		"lien1": [
+			"https://github.com/jim294/77events.io"
+		],
+		"lien2": [
+			"https://77events-jim294.netlify.app/"
+		],
+		"tags": [
+			"HTML",
+			"Css",
+			"React",
+			"Sass"
+		]
+	},
+	{
+		"id": "Calculette",
+		"title": "Calculatrice",
+		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
+		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"pictures": [
+			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
+			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
+			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
+			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
+			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
+			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+		],
+		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"rating": "3",
+		"site": "Drapeaux du Monde, capitales et Populations",
+		"lien1": [
+			"https://github.com/jim294/77events.io"
+		],
+		"lien2": [
+			"https://77events-jim294.netlify.app/"
+		],
+		"tags": [
+			"HTML",
+			"Css",
+			"React",
+			"Sass"
+		]
+	},
+	{
+		"id": "morpion",
+		"title": "Jeux du Morpion",
+		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
+		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"pictures": [
+			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
+			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
+			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
+			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
+			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
+			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+		],
+		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
+		"rating": "3",
+		"site": "Drapeaux du Monde, capitales et Populations",
+		"lien1": [
+			"https://github.com/jim294/77events.io"
+		],
+		"lien2": [
+			"https://77events-jim294.netlify.app/"
+		],
+		"tags": [
+			"HTML",
+			"Css",
+			"React",
+			"Sass"
+		]
+	}
+
+	
 ]
+}

@@ -148,6 +148,9 @@ h3 {
   font-size: xx-large;
   font-weight: 900;
   text-decoration: underline;
+  border: black solid 1px;
+  box-shadow: inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+  padding: 20px;
 }
 
 h4 {

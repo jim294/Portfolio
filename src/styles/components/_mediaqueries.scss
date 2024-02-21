@@ -82,6 +82,11 @@
     gap: 20px;
   }
 
+  .giftPresentation {
+    height: 250px;
+    border-radius: 100%;
+  }
+
   /** Home **/
 
   .smiley-hand {
@@ -181,6 +186,11 @@
         font-size: 20px;
       }
     }
+  }
+  /** Réalisations **/
+  .giftTravail {
+    height: 200px;
+    border-radius: 20px;
   }
 }
 

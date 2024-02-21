@@ -1,7 +1,7 @@
-import Banner from "../components/Banner";
 import Icones from "../assets/Json/icones.json";
 import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
 import { useMediaQuery } from "react-responsive";
+import myGiftPresentation from '../assets/images/présentation.gif'
 
 const Presentation = () => {
   const presentation = "Laissez-moi vous parler de moi...";
@@ -22,13 +22,10 @@ const Presentation = () => {
             delay={1200}
           />
         </div>
-        <Banner
-          imageUrl="https://i.postimg.cc/508jhqnr/Sation.webp"
-          alt="image de montagne"
-        />
+        <img className="giftPresentation" src={myGiftPresentation} alt="Travail GIF" />
 
-        <section className="cv_text">
           <h3>1-Présentation</h3>
+        <section className="cv_text">
           <p>
             Je m'appelle Jean-Marie DESCHAMPS, originaire de Besançon. Après
             avoir obtenu avec succès une licence en commerce (Bac+3), j'ai
