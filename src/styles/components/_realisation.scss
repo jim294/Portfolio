@@ -3,7 +3,10 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
+    img {
+        height: 600px;
+    }
 }
 
 .giftTravail {

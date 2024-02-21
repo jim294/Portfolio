@@ -1,12 +1,14 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 900px;
   gap: 30px;
+  font-weight: 900;
 
   .case {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     input {
       width: 200px;
       height: 30px;

@@ -187,10 +187,35 @@
       }
     }
   }
+
   /** Réalisations **/
+
+  .realisation{
+    img{
+      height: 250px;
+    }
+  }
   .giftTravail {
     height: 200px;
     border-radius: 20px;
+  }
+
+  /** Contact**/
+
+  .contact {
+    font-size: 20px;
+    p{
+      padding: 30px;
+    }
+  }
+
+  .form {
+    width: 300px;
+    .case{
+    textarea {
+      height: 400px;
+    }
+  }
   }
 }
 
@@ -212,6 +237,11 @@
       height: 40px;
       font-size: 6px;
       padding: 15px;
+    }
+  }
+  .contact {
+    img {
+      height: 200px;
     }
   }
 }
