@@ -21,7 +21,7 @@ const Realisations = () => {
             />
           ))}
         </section>
-        <h3>2/ Conception personnelle</h3>
+        <h3>2/ Conceptions personnelles</h3>
         <section className="cardsBackground">
           {Projects.Perso.map((project, index) => (
             <Cards
