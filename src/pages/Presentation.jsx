@@ -1,21 +1,11 @@
 import Icones from "../assets/Json/icones.json";
-import NomPrenomAnimation from "../components/NomPrenomAnimation.jsx";
-import { useMediaQuery } from "react-responsive";
 import myGiftPresentation from '../assets/images/présentation.gif'
 
 const Presentation = () => {
-  const presentation = "Laissez-moi vous parler de moi...";
-  const isSmallScreen = useMediaQuery({ maxWidth: 768 });
-
-  const getFontSize = () => {
-    return isSmallScreen ? "40px" : "50px";
-  };
-
   return (
     <>
       <main>
         <img className="giftPresentation" src={myGiftPresentation} alt="Travail GIF" />
-
           <h3>1-Présentation</h3>
         <section className="cv_text">
           <p>
