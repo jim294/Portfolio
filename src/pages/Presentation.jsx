@@ -14,14 +14,6 @@ const Presentation = () => {
   return (
     <>
       <main>
-        <div className="titleStructure">
-          <NomPrenomAnimation
-            style={{ fontSize: getFontSize() }}
-            string={presentation}
-            speed={50}
-            delay={1200}
-          />
-        </div>
         <img className="giftPresentation" src={myGiftPresentation} alt="Travail GIF" />
 
           <h3>1-Présentation</h3>
