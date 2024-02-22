@@ -7,6 +7,26 @@
   p {
     text-align: center;
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .photoPresentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+    p {
+margin-right: 20px;
+    }
+  }
+  .photoPresentationReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+  }
 }
 
 .iconesAll {
