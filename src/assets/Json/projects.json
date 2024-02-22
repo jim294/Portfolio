@@ -240,7 +240,7 @@
 	{
 		"id": "nombredor",
 		"title": "Nombre d'or",
-		"subtitle": "trouver le nombre d'or",
+		"subtitle": "Trouver le nombre d'or",
 		"cover": "https://i.postimg.cc/MH8yxShv/nombre-d-or.webp",
 		"pictures": [
 			"https://i.postimg.cc/3w4Sx3bB/nombre-d-or-cover.webp"
@@ -263,8 +263,8 @@
 	{
 		"id": "Calculette",
 		"title": "Calculatrice",
-		"subtitle": "Une calculatrice tel qu'il se doit",
-		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"subtitle": "Une initiation au JavaScript",
+		"cover": "https://i.postimg.cc/qv9HYnsk/calculatrice.png",
 		"pictures": [
 			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
 			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
@@ -291,7 +291,7 @@
 	{
 		"id": "morpion",
 		"title": "Jeux du Morpion",
-		"subtitle": "le vrai !!! ",
+		"subtitle": "Le vrai !!! ",
 		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
 		"pictures": [
 			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
@@ -308,7 +308,7 @@
 			"https://github.com/jim294/Jeux-du-morpion.io.git"
 		],
 		"lien2": [
-			"https://jim294.github.io/Jeux-du-morpion.io/"
+			"https://main--morpionjim294.netlify.app/"
 		],
 		"tags": [
 			"HTML",
