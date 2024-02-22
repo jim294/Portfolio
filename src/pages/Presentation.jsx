@@ -28,9 +28,9 @@ const Presentation = () => {
           <div className="photoPresentationReverse">
             <div>
               <p>
-                Aprés avoir obtenu avec succès une licence en commerce (Bac+3) 👨‍🎓,
+                Aprés avoir obtenu avec succès une licence en commerce (Bac+3),
                 j'ai consacré plusieurs années à des responsabilités dans le
-                secteur de la grande distribution 🏪. Cependant, après avoir
+                secteur de la grande distribution . Cependant, après avoir
                 effectué un bilan de compétences il y a quelques années, j'ai
                 réalisé que le monde du développement informatique représentait
                 une véritable source d'épanouissement pour moi 🤗.
@@ -43,13 +43,13 @@ const Presentation = () => {
           <div className="photoPresentation">
             <div>
               <p>
-                Fort de cette prise de conscience 💡, j'ai entrepris une
+                Fort de cette prise de conscience, j'ai entrepris une
                 reconversion professionnelle, mettant en lumière ma passion de
                 longue date pour l'informatique, présente depuis mon plus jeune
                 âge. Au cours de cette année de reconversion, j'ai concentré mes
                 efforts sur l'apprentissage des langages informatiques de base,
                 développant ainsi les compétences nécessaires pour évoluer dans
-                le domaine du développement informatique.
+                le domaine du développement informatique 💡.
               </p>
             </div>
             <div>
