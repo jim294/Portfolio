@@ -49,7 +49,7 @@ const Presentation = () => {
                 âge. Au cours de cette année de reconversion, j'ai concentré mes
                 efforts sur l'apprentissage des langages informatiques de base,
                 développant ainsi les compétences nécessaires pour évoluer dans
-                le domaine du développement informatique 🧠.
+                le domaine du développement informatique.
               </p>
             </div>
             <div>
@@ -63,7 +63,7 @@ const Presentation = () => {
                 constamment de me perfectionner, avec un intérêt particulier
                 pour React, une bibliothèque JavaScript que je trouve
                 particulièrement puissante et captivante. A ce titre, je viens
-                de valider ma formation d'integrateur Web chez OpenClassrooms 👨‍🎓.
+                de valider ma formation d'integrateur Web chez OpenClassrooms.
               </p>
             </div>
             <div>
@@ -79,7 +79,7 @@ const Presentation = () => {
                 technologies, j'accorde une grande importance à la qualité de
                 mon code. Je considère que la clarté et la lisibilité du code
                 sont essentielles, et je m'efforce toujours de produire un
-                travail soigné et bien structuré ✍️.
+                travail soigné et bien structuré.
               </p>
             </div>
             <div>
@@ -91,7 +91,7 @@ const Presentation = () => {
             continuer à me perfectionner, explorer de nouvelles technologies et
             rester à la pointe des dernières tendances du développement web.
             <br /> Je suis convaincu que l'apprentissage continu est la clé pour
-            exceller dans ce domaine en constante évolution 💡.
+            exceller dans ce domaine en constante évolution.
           </p>
           <p>
             Je suis ouvert aux opportunités de collaboration et de partage de
@@ -99,7 +99,7 @@ const Presentation = () => {
             monde passionnant du développement web. Mon parcours diversifié,
             alliant expérience en commerce et formation en développement web, me
             permet d'apporter une perspective unique et des compétences
-            complémentaires à tout projet 🛫.
+            complémentaires à tout projet.
           </p>
         </section>
         <section className="iconesAll">
