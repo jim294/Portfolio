@@ -19,7 +19,7 @@ const Presentation = () => {
         <section className="cv_text ">
           <div className="photoPresentation">
             <div>
-              <p>Je suis originaire de Besançon 🏙️.</p>
+              <p>Je suis originaire de Besançon.</p>
             </div>
             <div>
               <img src={besac} alt="besancon" />
@@ -33,7 +33,7 @@ const Presentation = () => {
                 secteur de la grande distribution . Cependant, après avoir
                 effectué un bilan de compétences il y a quelques années, j'ai
                 réalisé que le monde du développement informatique représentait
-                une véritable source d'épanouissement pour moi 🤗.
+                une véritable source d'épanouissement pour moi.
               </p>
             </div>
             <div>
