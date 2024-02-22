@@ -266,12 +266,7 @@
 		"subtitle": "Une initiation au JavaScript",
 		"cover": "https://i.postimg.cc/qv9HYnsk/calculatrice.png",
 		"pictures": [
-			"https://i.postimg.cc/DZLcjRWC/Project-13-Demo-Part-1-1.gif",
-			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
-			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
-			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
-			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
-			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+			"https://i.postimg.cc/L4VNLvmq/calculatrice.gif"
 		],
 		"description": "Doit-on préciser l'utilité d'une calculatrice ?",
 		"rating": "2",
@@ -292,7 +287,7 @@
 		"id": "morpion",
 		"title": "Jeux du Morpion",
 		"subtitle": "Le vrai !!! ",
-		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"cover": "https://i.postimg.cc/qR14CyR9/morpion-cover.png",
 		"pictures": [
 			"https://i.postimg.cc/y8y5dBWG/Morpion.gif"
 		],
