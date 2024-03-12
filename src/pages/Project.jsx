@@ -89,7 +89,22 @@ const Project = () => {
                     </h2>
                   </>
                 )}
+              </li>              <li>
+                {project.lien3 && (
+                  <>
+                    <h2>
+                      <a
+                        href={project.lien3[0]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Lien vers page web en format Taylwind
+                      </a>
+                    </h2>
+                  </>
+                )}
               </li>
+
             </ul>
           }
         />
