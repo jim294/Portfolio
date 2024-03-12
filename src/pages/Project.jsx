@@ -90,7 +90,7 @@ const Project = () => {
                   </>
                 )}
               </li>{" "}
-                <h4>------- Format Taylwind --------</h4>
+                <h4>{project.Format}</h4>
               <li>
                 {project.lien3 && (
                   <>

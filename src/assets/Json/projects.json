@@ -16,6 +16,9 @@
 		"description": "J'ai débuté en tant que développeur web chez Booki, une start-up souhaitant créer un site permettant aux utilisateurs de trouver des hébergements et des activités dans leur ville. En collaboration avec Sarah, la CTO, et Loïc, l’UI designer, j'avais pour mission d'intégrer l'interface du site avec HTML et CSS. Je devais compléter le fichier index.html et le dossier CSS en m'inspirant de la base de code fournie. Le plus gros du travail etait la validité du code, le web sémantique, l'importance des validateurs, l'utilisation d'un IDE, les spécificités CSS, l'étude de la maquette, et la séparation du HTML et du CSS. J'ai pris soin de l'implémentation d'une interface responsive avec HTML et CSS, l'installation d'un environnement de développement frontend, et l'intégration de contenu conformément à une maquette.",
 		"rating": "2",
 		"site": "Agence d'hébergements en ligne",
+		"Format": [
+			"------- Format Taylwind --------"
+		],
 		"lien1": [
 			"https://github.com/jim294/Booki.io"
 		],
