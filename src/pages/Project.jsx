@@ -11,7 +11,7 @@ const Project = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const project = Projects.Openclassrooms.find((project) => project.id === id);
- 
+
   useEffect(() => {
     if (project) {
       setWork(project);
@@ -28,10 +28,10 @@ const Project = () => {
         <section className="project__left">
           <h1 className="project__title">{project.title}</h1>
           <p className="project__location">{project.site}</p>
-      <Carousel
-        images={project.pictures}
-        pagination={project.pictures.length}
-      />
+          <Carousel
+            images={project.pictures}
+            pagination={project.pictures.length}
+          />
           <ul>
             {project.tags.map((tag) => (
               <li className="project__tags" key={tag}>
@@ -89,7 +89,9 @@ const Project = () => {
                     </h2>
                   </>
                 )}
-              </li>              <li>
+              </li>{" "}
+                <h4>------- Format Taylwind --------</h4>
+              <li>
                 {project.lien3 && (
                   <>
                     <h2>
@@ -98,13 +100,27 @@ const Project = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Lien vers page web en format Taylwind
+                        Lien vers projet GitHub
                       </a>
                     </h2>
                   </>
                 )}
               </li>
-
+              <li>
+                {project.lien4 && (
+                  <>
+                    <h2>
+                      <a
+                        href={project.lien4[0]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Lien vers page web
+                      </a>
+                    </h2>
+                  </>
+                )}
+              </li>
             </ul>
           }
         />
