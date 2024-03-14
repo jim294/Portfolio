@@ -2,26 +2,26 @@
   "languages":
 [
 	{
-		"title": "https://i.postimg.cc/DZdZzDnD/html5.gif",
+		"title": "/images/icones/html5.gif",
 		"description":
 		"Html5"
 	},
 	{
-		"title": "https://i.postimg.cc/hvsNh8Jc/css.gif",
+		"title": "/images/icones/css.gif",
 		"description":
 		"Css"
 	},
 	{
-		"title": "https://i.postimg.cc/mDTmfNKN/js.gif",
+		"title": "/images/icones/js.gif",
 		"description": "javaScript"
 	},
 	{
-	  "title": "https://i.postimg.cc/bwV4pMqY/sass.gif",
+	  "title": "/images/icones/sass.gif",
 	  "description":
 		"Sass"
 	},
 	{
-		"title": "https://i.postimg.cc/yNr0nM0R/mongo.gif",
+		"title": "/images/icones/mongo.gif",
 		"description": "MongoDb"
 	  }
   ],
@@ -29,12 +29,12 @@
   "frameworks":
   [
 	{
-		"title": "https://i.postimg.cc/W4hCzPnY/react.webp",
+		"title": "/images/icones/react.webp",
 		"description":
 		  "React"
 	  },
 	  {
-		"title": "https://i.postimg.cc/zvPcwt0X/nodejs.gif",
+		"title": "/images/icones/nodejs.gif",
 		"description":
 		  "Node.js + Express.js"
 	  }
@@ -43,17 +43,17 @@
   "tools":
   [
 	{
-		"title": "https://i.postimg.cc/hj5pYC7J/GitHub.gif",
+		"title": "/images/icones/GitHub.gif",
 		"description":
 		  "GitHub"
 	  },
 	  {
-		"title": "https://i.postimg.cc/1znz1X8v/photoshop.gif",
+		"title": "/images/icones/photoshop.gif",
 		"description":
 		  "Photoshop"
 	  },
 	  {
-		"title": "https://i.postimg.cc/056hGSLW/premiere-pro.gif",
+		"title": "/images/icones/premiere-pro.gif",
 		"description":
 		  "Premiere pro"
 	  }

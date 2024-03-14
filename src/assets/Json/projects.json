@@ -94,8 +94,8 @@
 		"subtitle": "Création d'une page web dynamique avec JavaScript",
 		"cover": "/images/sites/covers/sophie-bluel.webp",
 		"pictures": [
-			"https://i.postimg.cc/D0FmnJNw/sophie-bluel.webp",
-			"https://i.postimg.cc/ZqBWch34/Snag-14609fb0.webp"
+			"/images/sites/covers/sophie-bluel.webp",
+			"/images/sites/pictures/sophieBluel/sophieBluel.webp"
 		],
 		"description": " Développement frontend avec travail sur la conception du site portfolio d’une architecte d’intérieur avec trois missions principales: Développement de la page de présentation des travaux de l'architecte, puis de la page de connexion de l'administrateur du site et enfin, développement de la modale permettant d'uploader de nouveaux médias.",
 		"rating": "5",
@@ -118,10 +118,10 @@
 		"subtitle": "Création d'une application web de location immobilière avec React",
 		"cover": "/images/sites/covers/Kasa.webp",
 		"pictures": [
-			"https://i.postimg.cc/T2mrxnKf/Kasa.webp",
-			"https://i.postimg.cc/FsV3dmb6/Snag-146222f4.webp",
-			"https://i.postimg.cc/SxQ8c5Dx/Snag-146222a6.webp",
-			"https://i.postimg.cc/wTpDj3NJ/Snag-14622268.webp"
+			"/images/sites/covers/Kasa.webp",
+			"/images/sites/pictures/Kasa/kasa2.webp",
+			"/images/sites/pictures/Kasa/kasa3.webp",
+			"/images/sites/pictures/Kasa/kasa4.webp"
 		],
 		"description": "Une stack complète en JavaScript avec NodeJS côté backend, et React côté frontend. Il s'agit ici d'un projet React pour le développement de l’ensemble de l’application. Utilisation du backend / Data ainsi que de Create React App.",
 		"rating": "4",
@@ -146,10 +146,10 @@
 		"subtitle": "Optimisation du référencement d'un site de photographe",
 		"cover": "/images/sites/covers/nina-meta.webp",
 		"pictures": [
-			"https://i.postimg.cc/T3kb094q/nina-meta.webp",
-			"https://i.postimg.cc/fbJ9rd44/Snag-146623db.webp",
-			"https://i.postimg.cc/JhvkVhms/Snag-146623fb.webp",
-			"https://i.postimg.cc/6qN4q18w/Snag-14662458.webp"
+			"/images/sites/covers/nina-meta.webp",
+			"/images/sites/pictures/ninaCarducci/ninaCarducci2.webp",
+			"/images/sites/pictures/ninaCarducci/ninaCarducci3.webp",
+			"/images/sites/pictures/ninaCarducci/ninaCarducci4.webp"
 		],
 		"description": "Proposition de services d’optimisation SEO. Pour ce faire, analyse du site internet afin d'augmenter le trafic grâce au référencement naturel et amelioration de celui-ci afin d'optimiser ses performances techniques.",
 		"rating": "5",
@@ -171,12 +171,12 @@
 		"subtitle": "Débuggage de site d'une agence d'événementiel",
 		"cover": "/images/sites/covers/724events.webp",
 		"pictures": [
-			"https://i.postimg.cc/YCxRHYyh/724events.webp",
-			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
-			"https://i.postimg.cc/j5D4P9q7/Snag-1467ff91.webp",
-			"https://i.postimg.cc/26gFww3X/Snag-1467fffe.webp",
-			"https://i.postimg.cc/NFT8PHHG/Snag-146800ba.webp",
-			"https://i.postimg.cc/QNWqMRyL/Snag-1468004c.webp"
+			"/images/sites/covers/724events.webp",
+			"/images/sites/pictures/724events/724events2.webp",
+			"/images/sites/pictures/724events/724events3.webp",
+			"/images/sites/pictures/724events/724events4.webp",
+			"/images/sites/pictures/724events/724events5.webp",
+			"/images/sites/pictures/724events/724events6.webp"
 		],
 		"description": "Correction de plusieurs bugs sur le site. La conception finale est fonctionnelle. J'ai pour cela utilisé React Developper Tools ainsi que Jest. Un cahier de recettes a été produit en ajoutant tous les scénarios permettant de vérifier que le site fonctionne correctement.",
 		"rating": "3",
@@ -200,10 +200,11 @@
 		"subtitle": "Implémentation du frontend d'une application bancaire avec React",
 		"cover": "/images/sites/covers/Project-13-Demo-Part-1-1.gif",
 		"pictures": [
-			"https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
-			"https://i.postimg.cc/K8QPVFRT/Snag-1469a486.webp",
-			"https://i.postimg.cc/43d6RM9S/Snag-1469a477.webp",
-			"https://i.postimg.cc/hPLbLVnp/Snag-1469a467.webp"
+			"/images/sites/covers/Project-13-Demo-Part-1-1.gif",
+			"/images/sites/pictures/argentBank/argentBank2.webp",
+			"/images/sites/pictures/argentBank/argentBank3.webp",
+			"/images/sites/pictures/argentBank/argentBank4.webp",
+			"/images/sites/pictures/argentBank/argentBank5.webp"
 		],
 		"description": "Argent Bank est une nouvelle banque en ligne, et en tant que développeur frontend, ma mission consistait à mettre en place le tableau de bord utilisateur en deux phases. La première phase concernait l'authentification des utilisateurs avec l'utilisation de React et Redux, en mettant l'accent sur les bonnes pratiques de Green Code. La deuxième phase se concentrait sur les transactions, où je devais proposer les routes API conformes à Swagger pour permettre aux utilisateurs de gérer leurs transactions. La présentation finale devant l'évaluateur impliquait la démonstration du code et des choix effectués, tout en répondant à des questions sur l'intégration, l'utilisation de Redux et la conception des routes API.",
 		"rating": "5",
@@ -228,7 +229,8 @@
 		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
 		"cover": "/images/sites/covers/pays.gif",
 		"pictures": [
-			"https://i.postimg.cc/RVVPy19K/Pays-Cover.webp"
+			"/images/sites/covers/pays.gif",
+			"/images/sites/pictures/pays/pays2.webp"
 		],
 		"description": "Une petite application qui permet de choisir son continent pour voir tous ses pays, leur drapeau, leur capitale ainsi que le nombre d'habitants du pays.",
 		"rating": "1",
@@ -251,7 +253,7 @@
 		"subtitle": "Trouver le nombre d'or",
 		"cover": "/images/sites/covers/nombrOr.gif",
 		"pictures": [
-			"https://i.postimg.cc/Wb9kwcL1/nombrOr.gif"
+			"/images/sites/covers/nombrOr.gif"
 		],
 		"description": "Une petite application sous forme de jeux où il faut trouver le nombre en proposant un chiffre. Il suffit de se laisser guider et de trouver en un minimum de coups...",
 		"rating": "2",
@@ -274,7 +276,7 @@
 		"subtitle": "Une initiation au JavaScript",
 		"cover": "/images/sites/covers/calculette.gif",
 		"pictures": [
-			"https://i.postimg.cc/gJj6XMjT/calculette.gif"
+			"/images/sites/covers/calculette.gif"
 		],
 		"description": "Doit-on préciser l'utilité d'une calculatrice ?",
 		"rating": "2",
@@ -297,7 +299,7 @@
 		"subtitle": "Le vrai !!! ",
 		"cover": "/images/sites/covers/Morpion.gif",
 		"pictures": [
-			"https://i.postimg.cc/y8y5dBWG/Morpion.gif"
+			"/images/sites/covers/Morpion.gif"
 		],
 		"description": "Dois je présenter le jeux du morpion ?",
 		"rating": "1",
