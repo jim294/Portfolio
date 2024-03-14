@@ -27,7 +27,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+            src="/images/icones/LinkedIn.webp"
             alt="logo LinkedIn"
           />
         </a>
@@ -37,7 +37,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg"
+            src="/images/icones/x.webp"
             alt="logo Twitter"
           />
         </a>
@@ -47,13 +47,13 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            src="/images/icones/github.webp"
             alt="logo GitHub"
           />
         </a>
         <NavLink to="/contact">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg"
+            src="/images/icones/mail.webp"
             alt="logo Mail"
           />
         </NavLink>
