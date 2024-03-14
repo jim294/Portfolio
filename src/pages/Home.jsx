@@ -72,7 +72,7 @@ const Home = () => {
                   ></Typewriter>
                 </span>
               </div>
-              <img src="https://i.postimg.cc/xCzfkTcH/Moi.webp" alt="jm" />
+              <img src="/images/divers/moi.webp" alt="jm" />
               <div>
                 <p>
                   Passionné par l'informatique, je consacre la majeure partie de
@@ -83,34 +83,34 @@ const Home = () => {
                 <div className="homeLiens">
                   <NavLink to="/realisations">
                     <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      src="/images/divers/fleche-gauche.webp"
                       alt="fleche gauche"
                     />
                     Voir mes projets
                     <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      src="/images/divers/fleche-droite.webp"
                       alt="fleche droite"
                     />
                   </NavLink>
                   <NavLink to="/presentation">
                     <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      src="/images/divers/fleche-gauche.webp"
                       alt="fleche gauche"
                     />
                     En savoir plus
                     <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      src="/images/divers/fleche-droite.webp"
                       alt="fleche droite"
                     />
                   </NavLink>
                   <NavLink to="/contact">
                     <img
-                      src="https://i.postimg.cc/rs69bVFM/fleche-gauche.png"
+                      src="/images/divers/fleche-gauche.webp"
                       alt="fleche gauche"
                     />
                     Me contacter
                     <img
-                      src="https://i.postimg.cc/d389cbLd/fleche-droite.png"
+                      src="/images/divers/fleche-droite.webp"
                       alt="fleche droite"
                     />
                   </NavLink>

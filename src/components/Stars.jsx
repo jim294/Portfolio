@@ -5,7 +5,7 @@ function Stars({ numberActiveStars, numberInactiveStars }) {
     stars.push(
       <img
         key={i}
-        src="https://i.postimg.cc/BZdMcqKQ/Vector-star-active.webp"
+        src="/images/divers/Vector-star-active.webp"
         alt="Étoile active"
       />
     );
@@ -15,7 +15,7 @@ function Stars({ numberActiveStars, numberInactiveStars }) {
     stars.push(
       <img
         key={i + numberActiveStars}
-        src="https://i.postimg.cc/nhx2g02y/Vector-star-inactive.webp"
+        src="/images/divers/Vector-star-inactive.webp"
         alt="Étoile inactive"
       />
     );

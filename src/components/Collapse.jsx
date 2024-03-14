@@ -14,7 +14,7 @@ const Collapse = ({ title, description }) => {
           <h2 className="collapse__title">{title}</h2>
           <img
             className="collapse__icon"
-            src="https://i.postimg.cc/X7dxsTfK/Vector-down.webp"
+            src="images/divers/Vector-down.webp"
             alt="Flèche vers le bas"
           />
         </div>
