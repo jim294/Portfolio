@@ -69,9 +69,9 @@
 		"subtitle": "Premiers pas sur le langage JavaScript",
 		"cover": "/images/sites/covers/print-it.webp",
 		"pictures": [
-			"https://i.postimg.cc/W14FdZ1D/print-it.webp",
-			"https://i.postimg.cc/sg0B72MT/Snag-145d25ac.webp",
-			"https://i.postimg.cc/zfsV2PSW/Snag-145d25eb.webp"
+			"/images/sites/covers/print-it.webp",
+			"/images/sites/pictures/print-it/print-it2.webp",
+			"/images/sites/pictures/print-it/print-it3.webp"
 		],
 		"description": "Dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it grâce à javaScript.",
 		"rating": "2",
