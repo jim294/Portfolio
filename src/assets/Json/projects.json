@@ -5,13 +5,12 @@
 		"id": "Booki",
 		"title": "Booki",
 		"subtitle":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
-		"cover": "https://i.postimg.cc/P5bmSj9r/booki.webp",
+		"cover": "/images/sites/covers/booki.webp",
 		"pictures": [
-			"https://i.postimg.cc/Y01gxB5h/booki.webp",
-			"https://i.postimg.cc/Mpz0dXKx/2024-01-30-11-06-18.webp",
-			"https://i.postimg.cc/fLSYJ957/2024-01-30-11-06-31.webp",
-			"https://i.postimg.cc/PqRmX4br/2024-01-30-11-06-43.webp",
-			"https://i.postimg.cc/vTRf9ZSJ/2024-01-30-11-06-50.webp"
+			"/images/sites/pictures/booki/booki.webp",
+			"/images/sites/pictures/booki/booki2.webp",
+			"/images/sites/pictures/booki/booki3.webp",
+			"/images/sites/pictures/booki/booki4.webp"
 		],
 		"description": "J'ai débuté en tant que développeur web chez Booki, une start-up souhaitant créer un site permettant aux utilisateurs de trouver des hébergements et des activités dans leur ville. En collaboration avec Sarah, la CTO, et Loïc, l’UI designer, j'avais pour mission d'intégrer l'interface du site avec HTML et CSS. Je devais compléter le fichier index.html et le dossier CSS en m'inspirant de la base de code fournie. Le plus gros du travail etait la validité du code, le web sémantique, l'importance des validateurs, l'utilisation d'un IDE, les spécificités CSS, l'étude de la maquette, et la séparation du HTML et du CSS. J'ai pris soin de l'implémentation d'une interface responsive avec HTML et CSS, l'installation d'un environnement de développement frontend, et l'intégration de contenu conformément à une maquette.",
 		"rating": "2",
@@ -40,13 +39,13 @@
 		"id": "OhMyFood",
 		"title": "OhMyFood",
 		"subtitle":"Amélioration de l'interface d'un site mobile avec des animations CSS",
-		"cover": "https://i.postimg.cc/63ZG9N5Y/ohmyfood.webp",
+		"cover": "/images/sites/covers/ohmyfood.webp",
 		"pictures": [
-			"https://i.postimg.cc/63ZG9N5Y/ohmyfood.webp",
-			"https://i.postimg.cc/kMxtz9H5/Snag-1459be84.webp",
-			"https://i.postimg.cc/5NbFMTcS/Snag-1459c5b8.webp",
-			"https://i.postimg.cc/RVdJCd45/Snag-1459cc40.webp",
-			"https://i.postimg.cc/qqXh3XKK/Snag-1459a55f.webp"
+			"/images/sites/pictures/ohMyFood/ohmyfood.webp",
+			"/images/sites/pictures/ohMyFood/ohmyfood2.webp",
+			"/images/sites/pictures/ohMyFood/ohmyfood3.webp",
+			"/images/sites/pictures/ohMyFood/ohmyfood4.webp",
+			"/images/sites/pictures/ohMyFood/ohmyfood5.webp"
 		],
 		"description": "Ma mission etait de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients peuvent composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Fini le temps d'attente au restaurant ! L’équipe commerciale a déjà réussi à convaincre quatre restaurateurs d’utiliser la plateforme OhMyFood. Le site contient quatre menus dans un premier temps. ",
 		"rating": "3",
@@ -68,7 +67,7 @@
 		"id": "printit",
 		"title": "Print It !",
 		"subtitle": "Premiers pas sur le langage JavaScript",
-		"cover": "https://i.postimg.cc/W14FdZ1D/print-it.webp",
+		"cover": "/images/sites/covers/print-it.webp",
 		"pictures": [
 			"https://i.postimg.cc/W14FdZ1D/print-it.webp",
 			"https://i.postimg.cc/sg0B72MT/Snag-145d25ac.webp",
@@ -93,7 +92,7 @@
 		"id": "sophiebluel",
 		"title": "Sophie Bluel",
 		"subtitle": "Création d'une page web dynamique avec JavaScript",
-		"cover": "https://i.postimg.cc/D0FmnJNw/sophie-bluel.webp",
+		"cover": "/images/sites/covers/sophie-bluel.webp",
 		"pictures": [
 			"https://i.postimg.cc/D0FmnJNw/sophie-bluel.webp",
 			"https://i.postimg.cc/ZqBWch34/Snag-14609fb0.webp"
@@ -117,7 +116,7 @@
 		"id": "Kasa",
 		"title": "Kasa",
 		"subtitle": "Création d'une application web de location immobilière avec React",
-		"cover": "https://i.postimg.cc/T2mrxnKf/Kasa.webp",
+		"cover": "/images/sites/covers/Kasa.webp",
 		"pictures": [
 			"https://i.postimg.cc/T2mrxnKf/Kasa.webp",
 			"https://i.postimg.cc/FsV3dmb6/Snag-146222f4.webp",
@@ -145,7 +144,7 @@
 		"id": "ninacarducchi",
 		"title": "Nina Carducci",
 		"subtitle": "Optimisation du référencement d'un site de photographe",
-		"cover": "https://i.postimg.cc/T3kb094q/nina-meta.webp",
+		"cover": "/images/sites/covers/nina-meta.webp",
 		"pictures": [
 			"https://i.postimg.cc/T3kb094q/nina-meta.webp",
 			"https://i.postimg.cc/fbJ9rd44/Snag-146623db.webp",
@@ -170,7 +169,7 @@
 		"id": "724events",
 		"title": "724events",
 		"subtitle": "Débuggage de site d'une agence d'événementiel",
-		"cover": "https://i.postimg.cc/YCxRHYyh/724events.webp",
+		"cover": "/images/sites/covers/724events.webp",
 		"pictures": [
 			"https://i.postimg.cc/YCxRHYyh/724events.webp",
 			"https://i.postimg.cc/d0H97vFF/Snag-1467ff71.webp",
@@ -199,7 +198,7 @@
 		"id": "ArgentBank",
 		"title": "ArgentBank",
 		"subtitle": "Implémentation du frontend d'une application bancaire avec React",
-		"cover": "https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
+		"cover": "/images/sites/covers/Project-13-Demo-Part-1-1.gif",
 		"pictures": [
 			"https://i.postimg.cc/J4V5HPfs/argentbanklogo.webp",
 			"https://i.postimg.cc/K8QPVFRT/Snag-1469a486.webp",
@@ -227,7 +226,7 @@
 		"id": "listepays",
 		"title": "Liste des pays",
 		"subtitle": "Drapeaux du Monde, capitales et Populations pour Tester vos connaissances ",
-		"cover": "https://i.postimg.cc/Y0Qz1gy5/appli-pays.png",
+		"cover": "/images/sites/covers/pays.gif",
 		"pictures": [
 			"https://i.postimg.cc/RVVPy19K/Pays-Cover.webp"
 		],
@@ -250,9 +249,9 @@
 		"id": "nombredor",
 		"title": "Nombre d'or",
 		"subtitle": "Trouver le nombre d'or",
-		"cover": "https://i.postimg.cc/MH8yxShv/nombre-d-or.webp",
+		"cover": "/images/sites/covers/nombrOr.gif",
 		"pictures": [
-			"https://i.postimg.cc/3w4Sx3bB/nombre-d-or-cover.webp"
+			"https://i.postimg.cc/Wb9kwcL1/nombrOr.gif"
 		],
 		"description": "Une petite application sous forme de jeux où il faut trouver le nombre en proposant un chiffre. Il suffit de se laisser guider et de trouver en un minimum de coups...",
 		"rating": "2",
@@ -273,9 +272,9 @@
 		"id": "Calculette",
 		"title": "Calculatrice",
 		"subtitle": "Une initiation au JavaScript",
-		"cover": "https://i.postimg.cc/qv9HYnsk/calculatrice.png",
+		"cover": "/images/sites/covers/calculette.gif",
 		"pictures": [
-			"https://i.postimg.cc/L4VNLvmq/calculatrice.gif"
+			"https://i.postimg.cc/gJj6XMjT/calculette.gif"
 		],
 		"description": "Doit-on préciser l'utilité d'une calculatrice ?",
 		"rating": "2",
@@ -296,7 +295,7 @@
 		"id": "morpion",
 		"title": "Jeux du Morpion",
 		"subtitle": "Le vrai !!! ",
-		"cover": "https://i.postimg.cc/qR14CyR9/morpion-cover.png",
+		"cover": "/images/sites/covers/Morpion.gif",
 		"pictures": [
 			"https://i.postimg.cc/y8y5dBWG/Morpion.gif"
 		],

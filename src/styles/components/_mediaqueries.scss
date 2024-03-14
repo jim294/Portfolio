@@ -32,16 +32,14 @@
   }
 
   h3 {
-    font-size: x-large;
+    text-align: center;
   }
 
   h4 {
     font-size: large;
   }
 
-  main {
-    margin: 20px 20px 50px 20px;
-  }
+
 
   /** Header **/
 
@@ -98,14 +96,6 @@
       width: 300px;
       padding-bottom: 50px;
     }
-  }
-
-  .homeLiens {
-    img {
-      height: 20px;
-      padding-top: 0;
-    }
-    gap: 20px;
   }
 
   /** carousel **/
@@ -187,11 +177,18 @@
 
   /** Réalisations **/
 
-  .realisation{
-    img{
-      height: 250px;
+  .cards {
+    &__text {
+      height: 1px;
+      font-size: 19px;
+    }
+    &__text__subtitle {
+      height: 100px;
+      font-size: 16px;
+      padding: 15px;
     }
   }
+
   .giftTravail {
     height: 200px;
     border-radius: 20px;
@@ -217,25 +214,7 @@
 }
 
 @media (max-width: 720px) {
-  .cardsBackground {
-    grid-template-columns: repeat(auto-fit, minmax(20px, 2fr));
-  }
 
-  .cards {
-    height: 200px;
-    width: 100px;
-
-    &__text {
-      height: 1px;
-      font-size: 9px;
-    }
-
-    &__text__subtitle {
-      height: 40px;
-      font-size: 6px;
-      padding: 15px;
-    }
-  }
   .cv_text {
     p {
       text-align: center;
